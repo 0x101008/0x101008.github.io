@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 博客主页
 bgImage: /bg1.jpg
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /tx.jpg
 heroText: shtの小窝
 heroFullScreen: true
 tagline: 一个热爱二次元的码农
