@@ -66,6 +66,13 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
       serverURL: "https://comment.bloggersht.com.cn",
+      reaction:[
+        '/emoji/img_love.png',
+        '/emoji/gif_hutao_bite.gif',
+        '/emoji/gif_thump.gif',
+        '/emoji/gif_tui.gif',
+        '/emoji/img_good.png',
+      ],
       comment:true,
       pageview:true,
       copyright:true,
