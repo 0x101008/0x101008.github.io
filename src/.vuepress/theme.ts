@@ -4,18 +4,18 @@ import sidebar from "./sidebar.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://bloggersht.com.cn/",
 
   author: {
     name: "sht",
-    url: "https://mister-hope.com",
+    url: "https://bloggersht.com.cn/",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "/logo.jpg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "0x101008/0x101008.github.io",
 
   docsDir: "src",
 
@@ -51,7 +51,7 @@ export default hopeTheme({
 
   // 多语言配置
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    editLink: "",
   },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
