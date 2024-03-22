@@ -7,7 +7,7 @@ export default navbar([
     text:'游戏',
     icon:'#',
     children:[
-      'game.html'
+      '/game.html'
     ]
   }
 ]);
