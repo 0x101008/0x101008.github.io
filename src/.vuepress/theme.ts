@@ -10,8 +10,8 @@ export default hopeTheme({
     name: "sht",
     url: "https://bloggersht.com.cn/",
   },
-
-  iconAssets: "fontawesome-with-brands",
+  iconPrefix: 'iconfont icon-',
+  iconAssets: "//at.alicdn.com/t/c/font_4478412_8m31u0oplj4.css",
 
   logo: "/logo.jpg",
 
