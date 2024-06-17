@@ -1,5 +1,5 @@
 ---
-title: variable
+title: 变量variable
 icon: python
 date: 2024-04-06 12:51:41
 author: sht

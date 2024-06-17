@@ -1,5 +1,5 @@
 ---
-title: type
+title: 类型type
 icon: python
 date: 2024-05-05 10:36:55
 author: sht
