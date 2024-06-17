@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shtの小窝</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fffaff;
+        }
+
+        main {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: repeat(3, 500px);
+            overflow-y: hidden;
+            padding: 50px;
+        }
+
+        section {
+            display: flex;
+            gap: 2rem;
+            flex-direction: column;
+        }
+
+        section:nth-child(1),
+        section:nth-child(3) {
+            /* 应用平滑的动画 */
+            animation: scroller linear;
+            /* 动画根据滚动进行 */
+            animation-timeline: scroll(root);
+            /* 子元素反转排列 */
+            flex-direction: column-reverse;
+            /* 初始位置设置为底部 */
+            translate: 0% calc(-100% + 100vh);
+        }
+
+        section img {
+            box-shadow: 0 0 10px #0002;
+            border-radius: 5px;
+            transition: .3s;
+        }
+
+        section img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(150, 50, 50, 0.5);
+        }
+
+        @keyframes scroller {
+            to {
+                /* 最终位置设置为顶部 */
+                translate: 0% calc(100% - 100vh);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <img src="./img/01.webp" />
+            <img src="./img/02.webp" />
+            <img src="./img/03.webp" />
+            <img src="./img/04.webp" />
+            <img src="./img/05.webp" />
+            <img src="./img/06.webp" />
+            <img src="./img/19.webp" />
+        </section>
+        <section>
+            <img src="./img/07.webp" />
+            <img src="./img/08.webp" />
+            <img src="./img/09.webp" />
+            <img src="./img/10.webp" />
+            <img src="./img/11.webp" />
+            <img src="./img/12.webp" />
+            <img src="./img/20.webp" />
+        </section>
+        <section>
+            <img src="./img/13.webp" />
+            <img src="./img/14.webp" />
+            <img src="./img/15.webp" />
+            <img src="./img/16.webp" />
+            <img src="./img/17.webp" />
+            <img src="./img/18.webp" />
+            <img src="./img/21.webp" />
+        </section>
+
+    </main>
+</body>
+
+</html>
