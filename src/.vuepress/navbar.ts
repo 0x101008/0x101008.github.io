@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  { text: '友情链接', icon: 'icon_xinyong_xianxing_jijin-', link: 'https://bloggersht.com.cn/blog/link.html'},
+  {text: '友情链接', icon: 'icon_xinyong_xianxing_jijin-', link: 'https://bloggersht.com.cn/blog/link.html'},
   {text:'动漫',icon:'dongman', link: 'https://bloggersht.com.cn/anime/navigation.html'},
   {text:'游戏',
     icon:'game',
@@ -12,6 +12,13 @@ export default navbar([
       {text:'网页测速',link:'https://bloggersht.com.cn/speedtest/index.html'},
     ]
   },
-  
+  {text:'备用站点',
+    icon:'web',
+    children:[
+      {text:'备用站点1',link:'https://0x101008-github-io.vercel.app/'},
+      {text:'备用站点2',link:'https://sht15nb.b-cdn.net'},
+      {text:'备用站点3（内容更新较慢）',link:'https://sht15nb.bloggersht.com.cn'},
+    ]
+  },
 ]);
 
