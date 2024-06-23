@@ -22,3 +22,4 @@ backToTop: true
 toc: true
 ---
 
+[ChatGPT(burnhair-1美刀)](https://nextchat.burn.hair/#/?settings={"key":"sk-IOXa75TjIuEBymgBD2Ac4c6b19E14e66B19cDc3a17A5351f","url":"https://burn.hair"})
