@@ -276,3 +276,97 @@ Why?
         ```
 
 ![c5c6aa46eb6d9fe167d1913052450dad](./str.assets/c5c6aa46eb6d9fe167d1913052450dad.png)
+
+### 小试牛刀：提取`6543`
+
+```python
+string='01234567891'
+select=string[-5:-9:-1]
+print(select)
+```
+
+---
+
+### 4.字符串内置方法
+
+#### 4.1 upper()
+
+大写字符串
+
+```python
+string='shtnb'
+up_string=string.upper()
+print(up_string)
+print(string)
+#output
+SHTNB
+shtnb
+```
+
+#### 4.2 lower()
+
+小写字符串
+
+```python
+string='SHTNB'
+lower_string=string.lower()
+print(lower_string)
+print(string)
+
+#output
+shtnb
+SHTNB
+```
+
+#### 4.3 capitalize()
+
+首字母大写
+
+```python
+string='shtnb To Hp'
+capitalize_string=string.capitalize()
+print(capitalize_string)
+print(string)
+
+#output
+Shtnb to hp
+shtnb to hp
+```
+
+#### 4.4 title()
+
+将每个词首字母大写
+
+`不论什么间隔，都会转为首字母大写。其余字符都转为小写。`
+
+```python
+string='shtnb to hp'
+title_string=string.title()
+print(title_string）
+
+string='shtnb-to-hp'
+title_string=string.title()
+print(title_string)
+
+#output
+Shtnb To Hp
+Shtnb-To-Hp
+```
+
+#### 4.4startswith()
+
+捡侧字符串开头是否为特定字符开头，返回布尔值。
+
+```python
+string='shtnb'
+startswith_string=string.startswith('s')
+print(startswith_string)
+
+string='shtnb'
+startswith_string=string.startswith('h')
+print(startswith_string)
+
+#output
+True
+False
+```

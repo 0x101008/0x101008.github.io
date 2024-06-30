@@ -39,7 +39,11 @@ export default hopeTheme({
       Email: "sht15nb@163.com",
       GitHub: "https://github.com/0x101008?tab=repositories",
       Instagram: "https://www.instagram.com/sht15nb/",
-      QQ: "https://user.qzone.qq.com/1825033622",
+      Qzone: "https://user.qzone.qq.com/1825033622",
+      Discord:"https://discord.gg/8He7RYnf",
+      Zhihu:"https://www.zhihu.com/people/s-54-23-45",
+      Steam:'https://steamcommunity.com/profiles/76561199699905596/',
+      
     },
   },
 
