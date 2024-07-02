@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://bloggersht.com.cn/",
   },
   iconPrefix: 'iconfont icon-',
-  iconAssets: "//at.alicdn.com/t/c/font_4478412_swbz5pjlbun.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4478412_vqnrx0yfad.css",
 
   logo: "/logo.jpg",
 
