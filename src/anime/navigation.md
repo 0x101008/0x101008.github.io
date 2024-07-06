@@ -22,5 +22,8 @@ backToTop: true
 toc: true
 ---
 
+```
 [柯南](https://bloggersht.com.cn/anime/kenan.html)
 [孤独摇滚](https://bloggersht.com.cn/anime/bochi_the_rock.html)
+[新世纪福音战士](https://bloggersht.com.cn/anime/EVA.md)
+```

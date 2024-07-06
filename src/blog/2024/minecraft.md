@@ -38,7 +38,7 @@ toc: true
 - 游戏延迟较大，恕博主能力有限，请见谅。
 
 ```
-https://blog.huang223.top/wp-content/uploads/2024/03/EaglercraftX_1_8_u27_Offline_Signed.html
+https://xybcm.cn/wp-content/uploads/2024/03/EaglercraftX_1_8_u27_Offline_Signed.html
 ```
 
 ## 2.自建教程

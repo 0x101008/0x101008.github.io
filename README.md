@@ -2,7 +2,7 @@
 
 [English](https://github.com/0x101008/0x101008.github.io/edit/main/README.md) | [简体中文](https://github.com/0x101008/0x101008.github.io/edit/main/README_ZH.md)
 
-# self-introduction
+# Self-introduction
 
 I, from Suzhou, am a coder who loves the second world.
 
