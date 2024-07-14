@@ -353,9 +353,9 @@ Shtnb To Hp
 Shtnb-To-Hp
 ```
 
-#### 4.4startswith()
+#### 4.5 startswith()
 
-捡侧字符串开头是否为特定字符开头，返回布尔值。
+检测字符串开头是否为特定字符开头，返回布尔值。
 
 ```python
 string='shtnb'
@@ -370,3 +370,82 @@ print(startswith_string)
 True
 False
 ```
+
+#### 4.6 endswith()
+
+检测字符串开头是否为特定字符开头，返回布尔值。
+
+```python
+string='shtnb'
+endswith_string=string.endswith('b')
+print(endswith_string)
+
+string='shtnb'
+endswith_string=string.endswith('h')
+print(endswith_string)
+
+#output
+True
+False
+```
+
+#### 4.7 count()
+
+计算特定字符或单词在目标字符串中存在的次数。
+
+```python
+string='luoyebusui'
+count=string.count('u')
+print(count)
+
+#output
+3
+```
+
+#### 4.8 find()
+
+寻找目标字符或单词在特定字符串中第一次出现的下标。「及时重复出现也只返回第一次的」如果是查找单词，则它会返回目标单词的第一个字符的下标。
+
+如果查询的字符不存在则返回`-1`。
+
+```python
+string='luoyebusui'
+print(string.find('u'))
+
+string='luoyebusui'
+print(string.find('ye'))
+
+string='luoyebusui'
+print(string.find('z'))
+
+#output
+1
+3
+-1
+```
+
+#### 4.9 index()
+
+寻找目标字符或单词在特定字符串中第一次出现的下标。如果是查找单词，那么就返回目标的第一个字符的下标。
+
+如果不存在，则报错。
+
+```python
+string='luoyebusui'
+print(string.index('u'))
+
+string='luoyebusui'
+print(string.index('ye'))
+
+string='luoyebusui'
+print(string.index('z'))
+
+#output
+1
+3
+Traceback (most recent call last):
+  File "C:\Users\s\Desktop\编程\代码\python\str.py", line 8, in <module>
+    print(string.index('z'))
+ValueError: substring not found
+```
+

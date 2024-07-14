@@ -43,7 +43,10 @@ export default hopeTheme({
       Discord:"https://discord.gg/8He7RYnf",
       Zhihu:"https://www.zhihu.com/people/s-54-23-45",
       Steam:'https://steamcommunity.com/profiles/76561199699905596/',
-      
+      Twitter:'https://x.com/sht1757062',
+      Gmail:'luoyebusui@gmail.com',
+      AFDian:'https://afdian.net/u/1acad27ede8c11ee8fbf5254001e7c00',
+      Youtube:'https://www.youtube.com/@luoyebusui'
     },
   },
 
@@ -51,7 +54,6 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/python": ["114514",'823453817Aa'],
-      "/AI": ['823453817Aa'],
     },
   },
 

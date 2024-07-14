@@ -21,4 +21,4 @@ editLink: true
 backToTop: true
 toc: true
 ---
-[huang223的小窝](https://blog.huang223.top/)
+[huang223的小窝(间断性开放)](https://xybcm.cn)
