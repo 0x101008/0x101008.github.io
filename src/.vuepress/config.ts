@@ -11,7 +11,7 @@ export default defineUserConfig({
       title: "shtの小窝",
       description: "个人博客",
     },
-    '/en-US/':{
+    '/en/':{
       lang: "en-US",
       title: "sht's home",
       description: "own blog",

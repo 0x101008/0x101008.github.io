@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import { enNavbar, zhNavbar } from "./navbar/index.js";
+import { enSidebar, zhSidebar } from "./sidebar/index.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
@@ -18,17 +18,33 @@ export default hopeTheme({
   repo: "0x101008/0x101008.github.io",
 
   docsDir: "src",
+  locales: {
+    "/": {
+      // navbar
+      navbar: zhNavbar,
 
-  // 导航栏
-  navbar,
+      // sidebar
+      sidebar: zhSidebar,
 
-  // 侧边栏
-  sidebar,
+      displayFooter: true,
 
-  // 页脚
-  footer: "",
-  displayFooter: true,
+      editLink: false,
 
+    },
+    "/en/": {
+      // navbar
+      navbar: enNavbar,
+
+      // sidebar
+      sidebar: enSidebar,
+
+      displayFooter: true,
+
+      editLink: false,
+    }
+
+
+  },
   // 博客相关
   blog: {
     description: "一个热爱二次元的码农",
