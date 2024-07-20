@@ -5,11 +5,20 @@ import { oml2dPlugin } from 'vuepress-plugin-oh-my-live2d';
 
 export default defineUserConfig({
   base: "/",
-
-  lang: "zh-CN",
-  title: "shtの小窝",
-  description: "个人博客",
-
+  locales:{
+    '/':{
+      lang: "zh-CN",
+      title: "shtの小窝",
+      description: "个人博客",
+    },
+    '/en-US/':{
+      lang: "en-US",
+      title: "sht's home",
+      description: "own blog",
+    }
+    
+  },
+  
   theme,
 
   shouldPrefetch: false,

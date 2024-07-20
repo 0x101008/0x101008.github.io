@@ -16,7 +16,7 @@ article: false
 
 <br><br><br>
 
-<p style="text-align:right;font-size:30px;">花里胡哨，<a style="text-decoration:none;" href="https://0x101008-github-io.vercel.app">直接开始~</a></p>
+<p style="text-align:right;font-size:30px;">花里胡哨，<a style="text-decoration:none;" href="https://0x101008-github-io.vercel.app"color='blue'>直接开始~</a></p>
 
 ---
 
@@ -151,3 +151,4 @@ article: false
 <!-- .element: class="fragment fade-up" -->
 
 @slideend
+
