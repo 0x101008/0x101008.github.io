@@ -8,7 +8,7 @@ bgImageDark: /home/6-dark.svg
 heroFullScreen: true
 bgImageStyle:
     background-attachment: fixed
-heroText: 热爱二次元
+heroText: 落叶不随
 tagline: Python✨
 actions:
     - text: Memories 🧭

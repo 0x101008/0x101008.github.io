@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { oml2dPlugin } from 'vuepress-plugin-oh-my-live2d';
 
+
 export default defineUserConfig({
   base: "/",
 

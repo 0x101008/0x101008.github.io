@@ -129,7 +129,7 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       vPre: true,
-
+      revealJs: true,
 
 
 
