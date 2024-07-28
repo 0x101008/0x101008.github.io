@@ -35,7 +35,7 @@ toc: true
     10+10=10
     So 2 = 1
     By analogy, we can also prove that 3 = 1 and 4 = 1 ......
-    
+
 - By the time we get to college, we can discuss the mathematical concept of limits, where the fraction 1/0 results in a convergence to positive infinity as the numerator 1 and the denominator gradually converge to zero. However, if the denominator becomes a negative infinity, the result will converge to negative infinity. Since there is a huge gap between positive and negative infinity, 1/0 cannot equal both positive and negative infinity.
 - In advanced mathematics, dividing by zero may no longer be a meaningless operation, but an interesting rule related to the expansion of the concept of infinity. As we get deeper into math, especially after learning about negative and complex numbers, we may come to understand the true meaning of dividing 1 by 0. Imaginary numbers are formed by introducing an imaginary number axis outside the real number axis to form the complex plane.
 - At this point we introduce the concept of the Riemann sphere, which is formed by curling points on a plane onto a sphere. The points on the sphere correspond to the points on the plane, and the points on the sphere are concentrated near the north pole of the sphere the farther they are from the origin. As the angle of the light becomes smaller, the points on the plane that correspond to the points further away from the origin will also be concentrated near the north pole of the sphere. The north pole of the Riemann sphere corresponds to the point on the plane at infinity, i.e. “1 ÷ 0”.

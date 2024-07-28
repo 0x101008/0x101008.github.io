@@ -45,6 +45,5 @@ toc: true
 
 Q.E.D.
 
-    
 
 
