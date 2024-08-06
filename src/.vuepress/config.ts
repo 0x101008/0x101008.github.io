@@ -30,38 +30,38 @@ export default defineUserConfig({
   plugins: [
     oml2dPlugin({
       models: [
+        // {
+        //   path: "https://model.oml2d.com/Pio/model.json",
+        //   scale: 0.4,
+        //   position: [0, 50],
+        //   stageStyle: {
+        //     height: 300
+        //   }
+        // },
+        // {
+        //   path: "https://model.oml2d.com/cat-black/model.json",
+        //   scale: 0.15,
+        //   position: [0, 20],
+        //   stageStyle: {
+        //     height: 350
+        //   }
+        // },
         {
-          path: "https://model.oml2d.com/Pio/model.json",
-          scale: 0.4,
-          position: [0, 50],
-          stageStyle: {
-            height: 300
-          }
-        },
-        {
-          path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json',
-          scale: 0.12,
-          position: [-10, 50],
-          stageStyle: {
-            width: 350
-          }
-        },
-        {
-          path: "https://model.oml2d.com/cat-black/model.json",
-          scale: 0.15,
-          position: [0, 20],
-          stageStyle: {
-            height: 350
-          }
-        },
-        {
-          path: "https://model.oml2d.com/HK416-1-normal/model.json",
-          position: [0, 60],
-          scale: 0.08,
+          path: "https://model.oml2d.com/bilibili-22/index.json",
+          position: [0, 10],
+          scale: 0.35,
           stageStyle: {
             height: 450
           }
-        }
+        },
+        {
+          path: "https://model.oml2d.com/bilibili-33/index.json",
+          position: [0, 10],
+          scale: 0.35,
+          stageStyle: {
+            height: 450
+          }
+        },
       ]
     })
   ]

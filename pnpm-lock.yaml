@@ -14,6 +14,9 @@ devDependencies:
   '@waline/client':
     specifier: ^3.2.6
     version: 3.2.6
+  artplayer:
+    specifier: ^5.1.6
+    version: 5.1.6
   reveal.js:
     specifier: ^5.1.0
     version: 5.1.0
@@ -28,7 +31,7 @@ devDependencies:
     version: 0.19.3(vuepress@2.0.0-rc.14)
   vuepress-theme-hope:
     specifier: 2.0.0-rc.50
-    version: 2.0.0-rc.50(@vuepress/plugin-search@2.0.0-rc.37)(@waline/client@3.2.6)(markdown-it@14.1.0)(reveal.js@5.1.0)(vuepress@2.0.0-rc.14)
+    version: 2.0.0-rc.50(@vuepress/plugin-search@2.0.0-rc.37)(@waline/client@3.2.6)(artplayer@5.1.6)(markdown-it@14.1.0)(reveal.js@5.1.0)(vuepress@2.0.0-rc.14)
 
 packages:
 
@@ -1498,6 +1501,12 @@ packages:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
     dev: true
 
+  /artplayer@5.1.6:
+    resolution: {integrity: sha512-cqnVVLKCKWCryKl6Pmop50/Di9IQwOeNNQs5qWGzJDPiM0qTC7Q/Enusa+8JQid8p09fvp4Vc32ViSSYutdEeQ==}
+    dependencies:
+      option-validator: 2.0.6
+    dev: true
+
   /autoprefixer@10.4.19(postcss@8.4.39):
     resolution: {integrity: sha512-BaENR2+zBZ8xXhM4pUaKUxlVdxZ0EZhjvbopwnXmxRUfqDmwSpC2lAi/QXvx7NRdPCo1WKEcEF6mV64si1z4Ew==}
     engines: {node: ^10 || ^12 || >=14}
@@ -2240,6 +2249,12 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
+  /option-validator@2.0.6:
+    resolution: {integrity: sha512-tmZDan2LRIRQyhUGvkff68/O0R8UmF+Btmiiz0SmSw2ng3CfPZB9wJlIjHpe/MKUZqyIZkVIXCrwr1tIN+0Dzg==}
+    dependencies:
+      kind-of: 6.0.3
+    dev: true
+
   /ora@8.0.1:
     resolution: {integrity: sha512-ANIvzobt1rls2BDny5fWZ3ZVKyD6nscLvfFRpQgfWsythlcsVUC9kL0zq6j2Z5z9wwp1kd7wpsD/T9qNPVLCaQ==}
     engines: {node: '>=18'}
@@ -2714,7 +2729,7 @@ packages:
       '@vue/shared': 3.4.31
     dev: true
 
-  /vuepress-plugin-components@2.0.0-rc.50(vuepress@2.0.0-rc.14):
+  /vuepress-plugin-components@2.0.0-rc.50(artplayer@5.1.6)(vuepress@2.0.0-rc.14):
     resolution: {integrity: sha512-xwMgvrsUnjJe9grUAf69IwMlfThPz0lJsx12zXUecN1I17uSbZN6Bh/2POIVm5LTxfRGMgLrQM69DwualGCH/Q==}
     engines: {node: '>=18.19.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -2743,6 +2758,7 @@ packages:
       '@vuepress/helper': 2.0.0-rc.37(vuepress@2.0.0-rc.14)
       '@vuepress/plugin-sass-palette': 2.0.0-rc.37(vuepress@2.0.0-rc.14)
       '@vueuse/core': 10.11.0(vue@3.4.31)
+      artplayer: 5.1.6
       balloon-css: 1.2.0
       create-codepen: 2.0.0
       qrcode: 1.5.3
@@ -2878,7 +2894,7 @@ packages:
       - typescript
     dev: true
 
-  /vuepress-theme-hope@2.0.0-rc.50(@vuepress/plugin-search@2.0.0-rc.37)(@waline/client@3.2.6)(markdown-it@14.1.0)(reveal.js@5.1.0)(vuepress@2.0.0-rc.14):
+  /vuepress-theme-hope@2.0.0-rc.50(@vuepress/plugin-search@2.0.0-rc.37)(@waline/client@3.2.6)(artplayer@5.1.6)(markdown-it@14.1.0)(reveal.js@5.1.0)(vuepress@2.0.0-rc.14):
     resolution: {integrity: sha512-Bgf9JQC/ae+wZ0TJz6LuH9772NJhvaytP705aeNRnLDnlML0yW7laIod67wCsaF3KzCRnOuZ86VvQGNMojo3Bw==}
     engines: {node: '>=18.19.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -2942,7 +2958,7 @@ packages:
       gray-matter: 4.0.3
       vue: 3.4.31
       vuepress: 2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14)(vue@3.4.31)
-      vuepress-plugin-components: 2.0.0-rc.50(vuepress@2.0.0-rc.14)
+      vuepress-plugin-components: 2.0.0-rc.50(artplayer@5.1.6)(vuepress@2.0.0-rc.14)
       vuepress-plugin-md-enhance: 2.0.0-rc.50(markdown-it@14.1.0)(reveal.js@5.1.0)(vuepress@2.0.0-rc.14)
       vuepress-shared: 2.0.0-rc.50(vuepress@2.0.0-rc.14)
     transitivePeerDependencies:
