@@ -2,7 +2,7 @@
 home: true
 title: About me
 icon: #
-heroImage: https://p.sda1.dev/16/f5b1a93b6c9f6581d6f2adf9df79f72d/tx.jpg
+heroImage: https://bornforthis.cn/cdn/tx.jpg
 bgImage: /home/6-light.svg
 bgImageDark: /home/6-dark.svg
 heroFullScreen: true
