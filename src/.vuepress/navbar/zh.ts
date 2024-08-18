@@ -4,6 +4,7 @@ export const zhNavbar = navbar([
   "/",
   {text: '友情链接', icon: 'icon_xinyong_xianxing_jijin-', link: 'https://bloggersht.com.cn/blog/link.html'},
   {text:'动漫',icon:'dongman', link: 'https://bloggersht.com.cn/anime/navigation.html'},
+  {text:'相册',icon:'xiangce', link: 'https://album.bloggersht.com.cn'},
   {text:'游戏',
     icon:'game',
     children:[

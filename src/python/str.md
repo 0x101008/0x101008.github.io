@@ -449,3 +449,222 @@ Traceback (most recent call last):
 ValueError: substring not found
 ```
 
+#### 4.10 isalpha()
+
+判断字符串是不是纯字母字符串，字符串中但凡有一个字符是非字母，则返回false
+
+```python
+string = 'luoyebusui'
+isalpha = string.isalpha()
+print(isalpha)
+
+string = 'luoye busui'
+isalpha = string.isalpha()
+print(isalpha)
+
+#output
+True
+False
+```
+
+#### 4.11 isdigit()
+
+判断字符串是不是纯数字字符串，字符串中但凡有一个字符是非数字，则返回false
+
+```python
+string = '12345678'
+isdigit = string.isdigit()
+print(isdigit)
+
+string = '1234 5678'
+isdigit = string.isdigit()
+print(isdigit)
+
+#output
+True
+False
+```
+
+#### 4.12 isalnum()
+
+判断字符串是不是纯数字、纯字母或纯数字字母字符串，字符串中但凡有一个字符是非数字、字母元素，则返回false
+
+```python
+string = 'luoyebusui'
+isalnum= string.isalnum()
+print(isalnum)
+
+string = '888'
+isalnum= string.isalnum()
+print(isalnum)
+
+string = 'luoyebusui888'
+isalnum= string.isalnum()
+print(isalnum)
+
+string = 'luoyebusui 888'
+isalnum= string.isalnum()
+print(isalnum)
+#output
+True
+True
+True
+False
+```
+
+#### 4.13 isupper()
+
+判断字符串中的字母是否全是大写，全大写返回true，负责返回false
+
+```python
+string = "LUOYEBUSUI"
+isupper = string.isupper()
+print(isupper)
+
+string = 'LUOYEBUSUI111-'
+isupper = string.isupper()
+print(isupper)
+
+string = "LUOYEbusui"
+isupper = string.isupper()
+print(isupper)
+
+string = "luoyebusui"
+isupper = string.isupper()
+print(isupper)
+# output
+True
+True
+False
+False
+```
+
+#### 4.14 islower()
+
+判断字符串中的字母是否全是小写，全小写返回true，负责返回false
+
+```python
+string='luoyebusui'
+islower=string.islower()
+print(islower)
+
+string='luoyebusui111-'
+islower=string.islower()
+print(islower)
+
+string='luoyebusuiA111-'
+islower=string.islower()
+print(islower)
+# output
+True
+True
+False
+```
+
+#### 4.15 isspace()
+
+判断字符串是不是纯空格，多少个空格都可以。纯空格返回True,负责返回False
+
+```python
+string = '     '
+isspace = string.isspace()
+print(isspace)
+
+string = ''
+isspace = string.isspace()
+print(isspace)
+
+string = 'aaa'
+isspace = string.isspace()
+print(isspace)
+#output
+True
+False
+False
+```
+
+#### 4.16 strip()
+
+默认去掉目标字符串的前后空白字符，如果指定参数，则去掉指定字符。
+
+```python
+string ='   luoyebusui   '
+strip = string.strip()
+print(string)
+print(strip)
+
+string ='---luoyebusui---'
+strip = string.strip('-')
+print(string)
+print(strip)
+
+string ='-- ---luoyebusui--- ---'
+strip = string.strip('-')
+print(string)
+print(strip)
+
+string ='-- ---luoyebusui--- ---'
+strip = string.strip('- ')
+print(string)
+print(strip)
+
+string ='-- ---luoyebusui--- ---'
+strip = string.strip(' -')
+print(string)
+print(strip)
+
+#output
+   luoyebusui   
+luoyebusui
+---luoyebusui---
+luoyebusui
+-- ---luoyebusui--- ---
+ ---luoyebusui--- 
+-- ---luoyebusui--- ---
+luoyebusui
+-- ---luoyebusui--- ---
+luoyebusui
+```
+
+#### 4.18 rstip()
+
+默认去掉字符串右边的空白字符，如果指定参数，则去掉右边的指定字符。
+
+```python
+string ='   luoyebusui   '
+rstrip = string.rstrip()
+print(string)
+print(rstrip)
+
+string ='---luoyebusui---'
+rstrip = string.rstrip('-')
+print(string)
+print(rstrip)
+
+string ='-- ---luoyebusui--- ---'
+rstrip = string.rstrip('-')
+print(string)
+print(rstrip)
+
+string ='-- ---luoyebusui--- ---'
+rstrip = string.rstrip('- ')
+print(string)
+print(rstrip)
+
+string ='-- ---luoyebusui--- ---'
+rstrip = string.rstrip(' -')
+print(string)
+print(rstrip)
+
+#output
+   luoyebusui   
+   luoyebusui
+---luoyebusui---
+---luoyebusui
+-- ---luoyebusui--- ---
+-- ---luoyebusui--- 
+-- ---luoyebusui--- ---
+-- ---luoyebusui
+-- ---luoyebusui--- ---
+-- ---luoyebusui
+```
