@@ -84,7 +84,21 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
-    
+    feed: {
+      count: 100,
+      rssOutputFilename: "rss.xml",
+      image: "/logo.jpg",
+      icon: "python",
+      rss: true,
+      atom: true,
+      json: true,
+      channel: {
+        title: "落叶不随",
+        link: "https://bloggersht.com.cn/rss.xml",
+        icon: "/logo.jpg",
+        description: "日常、摸鱼、摆烂",
+      },
+    },
     search: {
       maxSuggestions: 16,
       hotKeys: [],
