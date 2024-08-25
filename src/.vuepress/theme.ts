@@ -69,7 +69,7 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/python": ["114514",'823453817Aa'],
+      // "/python": ["114514",'823453817Aa'],
     },
   },
 
