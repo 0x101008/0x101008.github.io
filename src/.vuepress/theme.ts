@@ -2,6 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
+import { SpeedInsights } from "@vercel/speed-insights/vue"
 
 export default hopeTheme({
   hostname: "https://bloggersht.com.cn/",

@@ -22,6 +22,7 @@
     "vuepress-theme-hope": "2.0.0-rc.52"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.12",
     "@vuepress/plugin-feed": "2.0.0-rc.42"
   }
 }
