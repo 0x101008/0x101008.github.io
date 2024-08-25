@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://bloggersht.com.cn/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://bloggersht.com.cn/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>shtの小窝</title>
+    <link>https://bloggersht.com.cn/</link>
+    <description>个人博客</description>
+    <language>zh-CN</language>
+    <pubDate>Sun, 25 Aug 2024 02:45:48 GMT</pubDate>
+    <lastBuildDate>Sun, 25 Aug 2024 02:45:48 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <image>
+      <title>shtの小窝</title>
+      <url>https://bloggersht.com.cn/logo.jpg</url>
+      <link>https://bloggersht.com.cn/</link>
+    </image>
+    <category>study</category>
+    <category>python</category>
+    <category>Web</category>
+    <item>
+      <title>1/0=?</title>
+      <link>https://bloggersht.com.cn/study/maths/amazing_maths/one%20divided%20by%20zero.html</link>
+      <guid>https://bloggersht.com.cn/study/maths/amazing_maths/one%20divided%20by%20zero.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">1/0=?</source>
+      <description>1/0=？ 在小学时期，老师强调0不能做除数，因为无法想象6个苹果分给0个人会发生什么。 再大一点到了初高中时期，我们使用使用反证法，可以证明任何数除以0不会得到1，因为这会导致所有数都等于1，与现实相悖。 证明： 假设10÷0=b 那么b x 0=10 bx(0+0)=10 10+10=10 所以2=1 以此类推，我们还可以证明出3=1，4=1......</description>
+      <category>study</category>
+      <pubDate>Sun, 14 Jul 2024 11:51:57 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>1/0=？</h2>
+<ul>
+<li>
+<p>在小学时期，老师强调0不能做除数，因为无法想象6个苹果分给0个人会发生什么。</p>
+</li>
+<li>
+<p>再大一点到了初高中时期，我们使用使用反证法，可以证明任何数除以0不会得到1，因为这会导致所有数都等于1，与现实相悖。</p>
+<p>证明：
+假设10÷0=b
+那么b x 0=10
+bx(0+0)=10
+10+10=10
+所以2=1
+以此类推，我们还可以证明出3=1，4=1......</p>
+</li>
+<li>
+<p>到了大学，我们可以从数学上的极限概念讨论，当分子1与分母逐渐趋近0时，分数1/0的结果会趋近正无穷大。但如果分母变为负的极小数，结果会趋近负无穷大。由于正无穷大和负无穷大之间存在极大差距，因此1/0不能同时等于正无穷大和负无穷大。</p>
+</li>
+<li>
+<p>在高等数学中，除以零可能不再是无意义的操作，而是与无穷概念的拓展相关的有趣规则。随着数学知识的深入，特别是学习负数和复数后，我们可能会理解1除以0的真正含义，虚数就是在实数轴外引入虚数轴，形成复平面而形成的。</p>
+</li>
+<li>
+<p>这时候我们引入一个叫“黎曼球”的概念，它是通过将平面上的点卷曲到球面上形成的。球面上的点与平面上的点一一对应，球面上的点离原点越远的点会集中在球的北极点附近。当光线的角度变小时，平面上的点离原点越远的对应点也会集中在球的北极点附近。黎曼球的北极点对应于平面上无穷远处的点，即“1÷0”。</p>
+</li>
+<li>
+<p>所以在黎曼球的规则下，除以零的结果不一定是正无穷或负无穷，可能是一种新的概念：无穷。这种无穷既非负数也非正数，同时也非实数和虚数。它的长度无限，方向任意，但不再是虚无的概念。</p>
+</li>
+</ul>
+<p><strong><span style="color:orange">最后，下次有人问你1÷0是什么时，你可以默默地给他一个黎曼球，让他自己去领悟其中的奥妙。</span></strong></p>
+<p>Q.E.D.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>有什么一句封神的作文开头？</title>
+      <link>https://bloggersht.com.cn/study/zh_article/sentence1.html</link>
+      <guid>https://bloggersht.com.cn/study/zh_article/sentence1.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">有什么一句封神的作文开头？</source>
+      <description>有什么一句封神的作文开头？【作文纸条】 别怕！纸·古希腊掌管高分作文的神·条来捞你！ 这5个顶级句式背一句，顶十句，适用多种主题，考场直接无脑套用，拯救“提笔四顾心茫然”的你~ imgimg 文字之于古人，如劈入混沌世界的雷电,惊醒并照亮了蛰伏的文明。自此以后，人类拥有了能够世代累积和叠加的智慧与情怀，万物灵长之文明永难磨灭。——纪录片《何以中国》 ◆...</description>
+      <category>study</category>
+      <pubDate>Tue, 02 Jul 2024 20:28:10 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>有什么一句封神的作文开头？【作文纸条】</h2>
+<p>别怕！纸·古希腊掌管高分作文的神·条来捞你！</p>
+<p>这5个顶级句式背一句，顶十句，适用多种主题，考场直接无脑套用，拯救“提笔四顾心茫然”的你~</p>
+<figure><figcaption>img</figcaption></figure>
+<p>文字之于古人，如劈入混沌世界的雷电,惊醒并照亮了蛰伏的文明。自此以后，人类拥有了能够世代累积和叠加的智慧与情怀，万物灵长之文明永难磨灭。——纪录片《何以中国》</p>
+<p>◆适用主题1：文明进步、科技发展</p>
+<p>◇示例：科技之于人类，如刺破迷雾的火光,点燃并照亮了文明的前路。自此以后，人类拥有了能够潜居深海和跃身群星的力量，万物灵长之文明永难磨灭。</p>
+<p>◆适用主题2：和平发展、命运共同</p>
+<p>◇示例：和平之于所有生命，都是洒落纷扰世界的甘霖,滋润并慰藉了无数的灵魂。只有坚守和平，我们才能够拥有共同开拓美好未来和去往更大世界的能力，让万物灵长之文明永难磨灭。</p>
+<figure><figcaption>img</figcaption></figure>
+<p>洪荒岁月的炉火明灭，时代巨变的波澜不惊，最终都不着痕迹地投射在食物上，化作我们平凡的一日三餐。每个仔细品味的人都会心怀感念，余味无穷。——纪录片《风味人间》</p>
+<p>◆适用主题1：自我成长</p>
+<p>◇示例：人生旅途的跋涉，漫长岁月的磨砺，最终都入木三分地镌刻在我们的生命里，化作我们灵魂独一无二的纹理。每个仔细触摸这细细深浅的人，都能体味到成长的奥秘，得益无穷。</p>
+<p>◆适用主题2：历史文物</p>
+<p>◇示例：古老的文明尘埃落定，历史长河的波澜起伏，最终都悄然无声地凝结在文物上，化作馆藏的瑰宝。每个细心品鉴的人都会从中感知到岁月的力量，见证文明在余烬处的辉煌。</p>
+<figure><figcaption>img</figcaption></figure>
+<p>我愿意在这方圆百里无村无店的山头，搭一间简陋的柴屋，储存薪木，在门前高高挂起一盏灯，招引雪夜中赶路的人，来与我煮一壶酒。——简媜《雪夜柴屋》</p>
+<p>◆适用主题1：理想追求</p>
+<p>◇示例：我愿意在这百舸争流的奔腾江流，撑起一叶并不起眼的小舟，乘风徐行，在船尾轻轻搅动一朵浪花，招引风雨中翻腾的波涛，来与我共赴理想彼岸。</p>
+<p>◆适用主题2：使命担当、民族复兴</p>
+<p>◇示例：我愿意在这风起云涌的时代洪流中，矗立一座坚实的碑，铭刻使命，在碑文中深深埋下一簇星光，招引黑夜中赶路的行者，来与我共话百年风雨，圆梦今朝。</p>
+<figure><figcaption>img</figcaption></figure>
+<p>在自我与世界的两级里，我们总有叩问。一方自我的空间给予了我们歇脚、成长的港湾；世界博大无垠的天空让我们拥有更多畅想、创造的机会。出入自我与世界的自由之门，青年的心，已然开始展望，自己能够创造出的无限可能。——高分范文《出入自由的门》</p>
+<p>◆适用主题1：得与失</p>
+<p>◇示例：在得与失的交织之中，我们总有叩问。一捧满满的收获给予了我们欢欣、自信的源泉；而挫败的经历则赋予了我们坚韧、成长的动力。穿梭于得与失的纷繁迷宫，青年的心，已然开始领悟，自己能从跌宕中行出精彩的人生航迹。</p>
+<p>◆适用主题2：积淀与蜕变</p>
+<p>◇示例：在积淀与蜕变的交汇点上，我们总有叩问。一段漫长的沉淀带给了我们无数自我怀疑的时刻；而蜕变的发生又让我们看到了厚积薄发的力量。煎熬在积淀与蜕变的临界点，青年的心，已然明了，自己终有一日能从地表深处破土，冲出直指参天的未来。</p>
+<figure><figcaption>img</figcaption></figure>
+<p>一滴水可以照见大江大河的奔涌，一支笔可以描绘时代的万千气象。我们乐见更多创作者满怀激情地观察、书写，为民族的奋进、人民的奋斗、时代的奋发而歌。我们也期待越来越多人走进阅读的世界，跟随跃动的文字，发现更广阔的天地。——《三人行，必有一人读网文？》</p>
+<p>◆适用主题1：文化传承、文化创新</p>
+<p>◇示例：一页古籍可以承载不朽的智慧，一代传人可以接续文明的脉络。我们乐见更多传统文化爱好者满怀赤诚地探寻、传承，为千年的遗风、广博的文化、历史的余韵而颂。我们也期待着越来越多人踏上求知的旅程，沿着历史的足迹，发现更广阔的天地。</p>
+<p>◆适用主题2：乡村振兴</p>
+<p>◇示例：一颗种子可以预示千年古树的繁茂，一滴甘露可以润泽蛮荒之地的生灵。我们乐见更多有志之士饱含热切希冀地躬耕、实践，为乡村的崛起、民众的幸福、社会的安乐而战。我们也期待着越来越多人投身于乡村振兴的伟大事业，求索致富之路，共同开拓美好的未来。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>间谍过家家有哪些值得写进作文的神级台词？【作文纸条】</title>
+      <link>https://bloggersht.com.cn/study/zh_article/sentence2.html</link>
+      <guid>https://bloggersht.com.cn/study/zh_article/sentence2.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">间谍过家家有哪些值得写进作文的神级台词？【作文纸条】</source>
+      <description>间谍过家家有哪些值得写进作文的神级台词？【作文纸条】 “哇酷哇酷&amp;quot;我们超萌的阿尼亚来了 谁能懂真的等了那么久 终于能在电影院看番的感觉！不敢想象会有多幸福... 今天纸条君给大家收集了间谍过家家里面的神级台词，分享给大家~ 那么可爱的一枚小女孩，你真的不考虑把她写进作文里吗？（真诚星星眼） 间谍过家家有哪些值得写进作文的神级台词？【作文纸条】间谍过家家...</description>
+      <category>study</category>
+      <pubDate>Tue, 02 Jul 2024 20:28:10 GMT</pubDate>
+      <content:encoded><![CDATA[<h3>间谍过家家有哪些值得写进作文的神级台词？【作文纸条】</h3>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>人民日报-百搭金句</title>
+      <link>https://bloggersht.com.cn/study/zh_article/sentence.html</link>
+      <guid>https://bloggersht.com.cn/study/zh_article/sentence.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">人民日报-百搭金句</source>
+      <description>人民日报，10个百搭金句，写进作文赢麻了！ 当代中学生至暗时刻：高级金句一箩筐，摘抄本记得满满当当，考试却写不了一点！ 有句话说得好：素材在精不在多（没错，是纸条说的）。 在学生党心中封神的人民日报里，就藏着很多简短易背、朗朗上口的金句。 将它们写进作文，一类文手到擒来！ imgimg imgimg 芳华竞展，映照时代荣光。——《为推进中国式现代化作出...</description>
+      <category>study</category>
+      <pubDate>Sun, 30 Jun 2024 10:32:50 GMT</pubDate>
+      <content:encoded><![CDATA[<h3>人民日报，10个百搭金句，写进作文赢麻了！</h3>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>介绍页</title>
+      <link>https://bloggersht.com.cn/intro.html</link>
+      <guid>https://bloggersht.com.cn/intro.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">介绍页</source>
+      <description>介绍页 我，来自苏州，是一个热爱二次元的码农。 新博客，新起点 我只不过是一只普普通通的初中牲罢了 那么，让我来介绍一下这个博(垃)客(圾) 硬件配置： 托管于Github(国内可能要科学上网) --------只要Github一天不倒，我的博客就一天不倒！ 软件配置： 未来展望 用上自己的服务器或CDN（要不然速度慢的就是依托答辩），但是----服务...</description>
+      <pubDate>Mon, 17 Jun 2024 02:57:24 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>我，来自苏州，是一个热爱二次元的码农。</p>
+<h2>新博客，新起点</h2>
+<p>我只不过是一只普普通通的初中牲罢了</p>
+<h2>那么，让我来介绍一下这个博(垃)客(圾)</h2>
+<p>硬件配置：</p>
+<p>托管于<a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>(国内可能要科学上网)</p>
+]]></content:encoded>
+      <enclosure url="https://i.imgur.com/H0jnk80_d.webp?maxwidth=760&amp;fidelity=grand" type="image/"/>
+    </item>
+    <item>
+      <title>ChatGPT的使用</title>
+      <link>https://bloggersht.com.cn/AI/ChatGPT.html</link>
+      <guid>https://bloggersht.com.cn/AI/ChatGPT.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">ChatGPT的使用</source>
+      <description>在现在ChatGPT或许已经成为人们日常工作学习必不可少的一部分了。而任然有很多人不知道它的具体使用方法及使用情景。于是就有了今天的这篇文章。 观前警告：本人对ChatGPT也不算十分精通,如有错误欢迎指出。（不喜勿喷） ChatGPT(burnhair-1美刀)</description>
+      <category>python</category>
+      <pubDate>Mon, 17 Jun 2024 20:50:30 GMT</pubDate>
+      <content:encoded><![CDATA[<p>在现在ChatGPT或许已经成为人们日常工作学习必不可少的一部分了。而任然有很多人不知道它的具体使用方法及使用情景。于是就有了今天的这篇文章。
+<strong><span style="color:red">观前警告：本人对ChatGPT也不算十分精通,如有错误欢迎指出。（不喜勿喷）</span></strong></p>
+<p><a href="https://nextchat.burn.hair/#/?settings=%7B%22key%22:%22sk-IOXa75TjIuEBymgBD2Ac4c6b19E14e66B19cDc3a17A5351f%22,%22url%22:%22https://burn.hair%22%7D" target="_blank" rel="noopener noreferrer">ChatGPT(burnhair-1美刀)</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Navigation</title>
+      <link>https://bloggersht.com.cn/anime/navigation.html</link>
+      <guid>https://bloggersht.com.cn/anime/navigation.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">Navigation</source>
+      <category>python</category>
+      <pubDate>Sun, 09 Jun 2024 11:02:06 GMT</pubDate>
+      <content:encoded><![CDATA[<p>| 名称 | 链接 |
+|</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>友情链接</title>
+      <link>https://bloggersht.com.cn/blog/link.html</link>
+      <guid>https://bloggersht.com.cn/blog/link.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">友情链接</source>
+      <description>huang223的小窝(间断性开放)</description>
+      <category>Web</category>
+      <pubDate>Mon, 08 Apr 2024 09:41:09 GMT</pubDate>
+      <content:encoded><![CDATA[<p><a href="https://xybcm.cn" target="_blank" rel="noopener noreferrer">huang223的小窝(间断性开放)</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>网站搭建</title>
+      <link>https://bloggersht.com.cn/blog/2024/creatwebsite.html</link>
+      <guid>https://bloggersht.com.cn/blog/2024/creatwebsite.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">网站搭建</source>
+      <description>1. 个人网站搭建 1.1. 升级网站 1.1.1. 怎么看网站有没有发布更新 方法一：访问主题官方文档 https://theme-hope.vuejs.press/changelog.html 怎么看自己网站当前版本？package.json imgimg 升级命令：pnpm dlx vp-update 方法二：鼠标直接放在上面： imgimg 1...</description>
+      <category>Web</category>
+      <pubDate>Sat, 30 Mar 2024 22:04:24 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>1. 个人网站搭建</h2>
+<h3>1.1. 升级网站</h3>
+<h4>1.1.1. 怎么看网站有没有发布更新</h4>
+<ol>
+<li>方法一：访问主题官方文档 https://theme-hope.vuejs.press/changelog.html</li>
+<li>怎么看自己网站当前版本？package.json</li>
+</ol>
+<figure><figcaption>img</figcaption></figure>
+<ol>
+<li>升级命令：<code>pnpm dlx vp-update</code></li>
+<li>方法二：鼠标直接放在上面：</li>
+</ol>
+<figure><figcaption>img</figcaption></figure>
+<h4>1.1.2. 添加图标</h4>
+<figure><figcaption>img</figcaption></figure>
+<figure><figcaption>img</figcaption></figure>
+<figure><figcaption>img</figcaption></figure>
+<figure><figcaption>img</figcaption></figure>
+<h2>2. 文章创建步骤</h2>
+<h3>2.1. 创建文件夹</h3>
+<p>使用文件夹对文章进行分类，文件里面还可以有文件夹，不限层级。<code>.md</code>文件</p>
+<p>**文件命名规则:**不管是文件夹或者文章文件，文件名称都不能有空格、中文。只能使用英文，如果想要空格就使用减号代替。</p>
+<p>**文章文件头部:**文章前面输入三个减号，回车 Enter 就可以出现如下：</p>
+<figure><figcaption>img</figcaption></figure>
+<p><strong>头部内容：</strong></p>
+<div class="language-plain line-numbers-mode" data-highlighter="shiki" data-ext="plain" data-title="plain" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>title: Markdown</span></span>
+<span class="line"><span>icon: web</span></span>
+<span class="line"><span>date: 2024-03-30 20:50:34</span></span>
+<span class="line"><span>author: sht</span></span>
+<span class="line"><span>isOriginal: true</span></span>
+<span class="line"><span>category: </span></span>
+<span class="line"><span>    - Web</span></span>
+<span class="line"><span>tag:</span></span>
+<span class="line"><span>    - Web</span></span>
+<span class="line"><span>sticky: false</span></span>
+<span class="line"><span>star: false</span></span>
+<span class="line"><span>article: true</span></span>
+<span class="line"><span>timeline: true</span></span>
+<span class="line"><span>navbar: true</span></span>
+<span class="line"><span>sidebarIcon: true</span></span>
+<span class="line"><span>headerDepth: 5</span></span>
+<span class="line"><span>comment: true</span></span>
+<span class="line"><span>lastUpdated: true</span></span>
+<span class="line"><span>editLink: true</span></span>
+<span class="line"><span>backToTop: true</span></span>
+<span class="line"><span>toc: true</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>时间生成链接：https://bornforthis.cn/python/#/</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Game</title>
+      <link>https://bloggersht.com.cn/blog/2024/game.html</link>
+      <guid>https://bloggersht.com.cn/blog/2024/game.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">Game</source>
+      <description>游戏</description>
+      <category>Web</category>
+      <pubDate>Mon, 01 Apr 2024 20:26:42 GMT</pubDate>
+      <content:encoded><![CDATA[<p><a href="https://imc.cab" target="_blank" rel="noopener noreferrer">游戏</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Markdown语法</title>
+      <link>https://bloggersht.com.cn/blog/2024/markdown.html</link>
+      <guid>https://bloggersht.com.cn/blog/2024/markdown.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">Markdown语法</source>
+      <description>markdown 代码框 加粗 标注 python is nice 链接 博客主页 | shtの小窝 (bloggersht.com.cn) 图片 image-20240330212129144image-20240330212129144 减号+空格 有序：一点空格 a b 删除线 分隔线 斜体 斜体 标记 提示 提示容器 相关信息 信息容器 重要 ...</description>
+      <category>Web</category>
+      <pubDate>Sat, 30 Mar 2024 20:50:34 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>markdown</h2>
+<h3>代码框</h3>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p><strong>加粗</strong></p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">**</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">加粗</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">**</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">快捷键：ctrl</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">b</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>标注</strong></p>
+<p><code>python</code> is nice</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#000000;--shiki-dark:#FFFFFF">`标注`</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>链接</h2>
+<p><a href="https://bloggersht.com.cn/" target="_blank" rel="noopener noreferrer">博客主页 | shtの小窝 (bloggersht.com.cn)</a></p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[链接名称](链接)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>图片</h2>
+<figure><figcaption>image-20240330212129144</figcaption></figure>
+<ul>
+<li>减号+空格
+<ol>
+<li>有序：一点空格</li>
+<li>a</li>
+<li>b</li>
+</ol>
+</li>
+</ul>
+<h2>删除线</h2>
+<p><s>abcdefg</s></p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">~</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">文字</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">~</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>分隔线</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>minecraft</title>
+      <link>https://bloggersht.com.cn/blog/2024/minecraft.html</link>
+      <guid>https://bloggersht.com.cn/blog/2024/minecraft.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">minecraft</source>
+      <description>浅浅借鉴剽窃一篇文章 imgimg 背景：考虑到有在学校机房玩MC的需求，无奈限于机房的网速，我只能往网页版MC上打主意，然后就看到了GitHub开源的eaglerxcraft。 1.在线体验 注意事项： 仅供个人测试用，严禁用作商业目的。 请勿使用Edge等有右键拖动功能的浏览器，影响游戏体验。 游戏延迟较大，恕博主能力有限，请见谅。 2.自建教程 ...</description>
+      <category>Web</category>
+      <pubDate>Sat, 30 Mar 2024 22:32:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么前期做静态</title>
+      <link>https://bloggersht.com.cn/blog/2024/stationary.html</link>
+      <guid>https://bloggersht.com.cn/blog/2024/stationary.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">为什么前期做静态</source>
+      <description>1.网站的维护性 动态网站：需要长期维护，出现图片问题，某些代码问题等，需要自己会独立网站代码[当然可以自己写代码，问题：我们用的是现成的，不是自己写的怎么会改呢？] 1.跟容易被DDOS，要花时间维护 2.后期可以再改动态 3.发文章：马上发，马上有 4.用户管理 5.服务器：1.核心，8Gb(wordpress:2) 6.费用高：1k+/年，CDN...</description>
+      <category>Web</category>
+      <pubDate>Sat, 30 Mar 2024 21:59:50 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>1.网站的维护性</h2>
+<p>动态网站：需要长期维护，出现图片问题，某些代码问题等，需要自己会独立网站代码[当然可以自己写代码，问题：我们用的是现成的，不是自己写的怎么会改呢？]</p>
+<p>1.跟容易被DDOS，要花时间维护</p>
+<p>2.后期可以再改动态</p>
+<p>3.发文章：马上发，马上有</p>
+<p>4.用户管理</p>
+<p>5.服务器：1.核心，8Gb(wordpress:2)</p>
+<p>6.费用高：1k+/年，CDN</p>
+<p>一.静态的好处</p>
+<p>1.好维护</p>
+<p>2.稳定</p>
+<p>3.费用低</p>
+<h3>1.1. 静态网站</h3>
+<ul>
+<li>
+<p>域名：35元</p>
+</li>
+<li>
+<p>直接托管 GitHub，如果后期文章多的话，你可以考虑租便宜的服务器。</p>
+</li>
+<li>
+<p>Question: 网站速度，对对对，你说的对。</p>
+</li>
+<li>
+<p>前期文章少，访问人少：速度慢不慢无所谓。</p>
+</li>
+<li>
+<p>前期中心在于：写文章积累；</p>
+</li>
+<li>
+<p>GitHub：</p>
+</li>
+<li>
+<p>服务器：网站数据存放到服务器，然后使用域名解析服务器「网站部署服务器」</p>
+</li>
+<li>
+<p>CDN：还是部署在 GitHub，但是我们使用 CDN 缓存加速；「缺点：1. 钱，2. 缓存更新需要时间（能接受）」</p>
+</li>
+<li>
+<p>服务器+CDN：网站部署在服务器并且使用 CDN 加速；「最优策略」「CDN + 流量」800元」「还不包含：服务器的钱」</p>
+</li>
+</ul>
+<h2>2.自建服务器</h2>
+<ol>
+<li>公网 IP：2k～3k</li>
+<li>公安备案</li>
+<li>自建的服务器还是需要维护；</li>
+<li>个人不好购买公网 IP，公司申请；</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>一些没什么用的小工具</title>
+      <link>https://bloggersht.com.cn/blog/2024/tool.html</link>
+      <guid>https://bloggersht.com.cn/blog/2024/tool.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">一些没什么用的小工具</source>
+      <description>小鱼鼠标 量子纠缠-标签页通讯 网页宠物 电子蜘蛛 彩色蜘蛛 流体 数字宠物 恶臭数字论证器 GPT3/4 API+CHAT</description>
+      <category>Web</category>
+      <pubDate>Fri, 19 Apr 2024 18:49:04 GMT</pubDate>
+      <content:encoded><![CDATA[<ol>
+<li>
+<p><a href="https://www.bloggersht.com.cn/tool/mouse/index.html" target="_blank" rel="noopener noreferrer">小鱼鼠标</a></p>
+</li>
+<li>
+<p><a href="https://www.bloggersht.com.cn/tool/html_chat/index.html" target="_blank" rel="noopener noreferrer">量子纠缠-标签页通讯</a></p>
+</li>
+<li>
+<p>网页宠物</p>
+<ul>
+<li><a href="https://www.bloggersht.com.cn/tool/pet/e-spider/index.html" target="_blank" rel="noopener noreferrer">电子蜘蛛</a></li>
+<li><a href="https://www.bloggersht.com.cn/tool/pet/rainbow-spider/index.html" target="_blank" rel="noopener noreferrer">彩色蜘蛛</a></li>
+<li><a href="https://www.bloggersht.com.cn/tool/pet/fluid-cursor-webgl/index.html" target="_blank" rel="noopener noreferrer">流体</a></li>
+<li><a href="https://www.bloggersht.com.cn/tool/pet/digital-pet/index.html" target="_blank" rel="noopener noreferrer">数字宠物</a></li>
+<li><a href="https://www.bloggersht.com.cn/tool/homo/index.html" target="_blank" rel="noopener noreferrer">恶臭数字论证器</a></li>
+</ul>
+</li>
+<li>
+<p><a href="https://burn.hair/register?aff=A8QW" target="_blank" rel="noopener noreferrer">GPT3/4 API+CHAT</a></p>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>如何写好一封英语推荐信</title>
+      <link>https://bloggersht.com.cn/study/en_article/recommendation.html</link>
+      <guid>https://bloggersht.com.cn/study/en_article/recommendation.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">如何写好一封英语推荐信</source>
+      <description>1.注意点 写一封好的英语推荐信需要注意以下几点： 1.1开头部分： 介绍自己是谁，你与被推荐人的关系是什么。 简要说明你为何有资格提供推荐信。 1.2具体描述： 描述被推荐人的优点、技能、工作表现等。提供具体的例子和经历来支持你的描述。 强调被推荐人的特质，如责任感、领导能力、团队合作能力等。 1.3举例和证据： 提供具体的案例、项目或事件，展示被推...</description>
+      <category>study</category>
+      <pubDate>Sat, 06 Jul 2024 18:46:51 GMT</pubDate>
+      <content:encoded><![CDATA[<h3>1.注意点</h3>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

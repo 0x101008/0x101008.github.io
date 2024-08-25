@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://bloggersht.com.cn/en/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://bloggersht.com.cn/en/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>sht&amp;apos;s home</title>
+    <link>https://bloggersht.com.cn/en/</link>
+    <description>own blog</description>
+    <language>en-US</language>
+    <pubDate>Sun, 25 Aug 2024 02:45:48 GMT</pubDate>
+    <lastBuildDate>Sun, 25 Aug 2024 02:45:48 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <image>
+      <title>sht&amp;apos;s home</title>
+      <url>https://bloggersht.com.cn/logo.jpg</url>
+      <link>https://bloggersht.com.cn/en/</link>
+    </image>
+    <category>study</category>
+    <item>
+      <title>one divided by zero</title>
+      <link>https://bloggersht.com.cn/en/study/maths/amazing_maths/one%20divided%20by%20zero.html</link>
+      <guid>https://bloggersht.com.cn/en/study/maths/amazing_maths/one%20divided%20by%20zero.html</guid>
+      <source url="https://bloggersht.com.cn/en/rss.xml">one divided by zero</source>
+      <description>1/0=？ In elementary school, teachers emphasize that 0 cannot be a divisor because it is impossible to imagine what would happen if 6 apples were divided among 0 people. Getting ...</description>
+      <category>study</category>
+      <pubDate>Thu, 25 Jul 2024 23:14:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>1/0=？</h2>
+<ul>
+<li>
+<p>In elementary school, teachers emphasize that 0 cannot be a divisor because it is impossible to imagine what would happen if 6 apples were divided among 0 people.</p>
+</li>
+<li>
+<p>Getting a little older into middle and high school years, we use use the inverse method, which allows us to prove that dividing any number by 0 will not give us 1 because it would result in all numbers being equal to 1, which is contrary to reality.</p>
+<p>Proof:
+Suppose 10 ÷ 0 = b
+Then b x 0 = 10
+bx(0+0)=10
+10+10=10
+So 2 = 1
+By analogy, we can also prove that 3 = 1 and 4 = 1 ......</p>
+</li>
+<li>
+<p>By the time we get to college, we can discuss the mathematical concept of limits, where the fraction 1/0 results in a convergence to positive infinity as the numerator 1 and the denominator gradually converge to zero. However, if the denominator becomes a negative infinity, the result will converge to negative infinity. Since there is a huge gap between positive and negative infinity, 1/0 cannot equal both positive and negative infinity.</p>
+</li>
+<li>
+<p>In advanced mathematics, dividing by zero may no longer be a meaningless operation, but an interesting rule related to the expansion of the concept of infinity. As we get deeper into math, especially after learning about negative and complex numbers, we may come to understand the true meaning of dividing 1 by 0. Imaginary numbers are formed by introducing an imaginary number axis outside the real number axis to form the complex plane.</p>
+</li>
+<li>
+<p>At this point we introduce the concept of the Riemann sphere, which is formed by curling points on a plane onto a sphere. The points on the sphere correspond to the points on the plane, and the points on the sphere are concentrated near the north pole of the sphere the farther they are from the origin. As the angle of the light becomes smaller, the points on the plane that correspond to the points further away from the origin will also be concentrated near the north pole of the sphere. The north pole of the Riemann sphere corresponds to the point on the plane at infinity, i.e. “1 ÷ 0”.</p>
+</li>
+<li>
+<p>So under the rules of the Riemann sphere, the result of dividing by zero is not necessarily positive or negative infinity, but may be a new concept: infinity. This infinity is neither negative nor positive, and at the same time neither real nor imaginary. It has an infinite length and an arbitrary direction, but is no longer a concept of nothingness.</p>
+</li>
+</ul>
+<p><strong><span style="color:orange">Finally, the next time someone asks you what 1 ÷ 0 is, you can silently give them a Riemann ball and let them comprehend the mystery for themselves.</span></strong></p>
+<p>Q.E.D.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>✨shtのhome✨</title>
+      <link>https://bloggersht.com.cn/en/intro.html</link>
+      <guid>https://bloggersht.com.cn/en/intro.html</guid>
+      <source url="https://bloggersht.com.cn/en/rss.xml">✨shtのhome✨</source>
+      <description>✨shtのhome✨ Self-introduction I, from Suzhou, am a coder who loves the second world. New Blog, New Beginning I&amp;apos;m just a regular junior high school animal. So, let me introduce yo...</description>
+      <pubDate>Mon, 17 Jun 2024 02:57:24 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h1>Self-introduction</h1>
+<p>I, from Suzhou, am a coder who loves the second world.</p>
+<h2>New Blog, New Beginning</h2>
+<p>I'm just a regular junior high school animal.</p>
+<h2>So, let me introduce you to this blog(trash)</h2>
+<p>Hardware configuration：</p>
+<p>Hosted in<a href="https://github.com" target="_blank" rel="noopener noreferrer">Github-pages</a></p>
+]]></content:encoded>
+      <enclosure url="https://i.imgur.com/H0jnk80_d.webp?maxwidth=760&amp;fidelity=grand" type="image/"/>
+    </item>
+  </channel>
+</rss>
