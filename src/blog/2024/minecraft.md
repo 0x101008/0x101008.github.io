@@ -1,6 +1,6 @@
 ---
 title: minecraft
-icon: web
+icon: game
 date: 2024-03-30 22:32:06
 author: sht
 isOriginal: true

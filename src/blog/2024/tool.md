@@ -1,6 +1,6 @@
 ---
 title: 一些没什么用的小工具
-icon: web
+icon: blog
 date: 2024-04-19 18:49:04
 author: sht
 isOriginal: true
