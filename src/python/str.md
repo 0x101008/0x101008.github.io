@@ -626,7 +626,7 @@ luoyebusui
 luoyebusui
 ```
 
-#### 4.18 rstip()
+#### 4.18 rstrip()
 
 默认去掉字符串右边的空白字符，如果指定参数，则去掉右边的指定字符。
 
@@ -667,4 +667,129 @@ print(rstrip)
 -- ---luoyebusui
 -- ---luoyebusui--- ---
 -- ---luoyebusui
+```
+
+#### 4.19 replace()
+
+`.replace(old,new,count)`第一个位置传入待替换的旧「old」字符，将第二个位置传入要替换的新字符「new」，默认替换全部，count控制次数。
+
+```python
+string ='   luoyebusui   '
+replace_string=string.replace(' ','*')
+print(string)
+print(replace_string)
+
+#output
+   luoyebusui   
+***luoyebusui***
+
+
+string ='ai-luoyebusui-ai'
+replaced_string = string.replace('ai', 'love')
+print(string)
+print(replaced_string)
+
+#output
+ai-luoyebusui-ai
+love-luoyebusui-love
+
+
+string ='ai-luoyebusui-ai'
+replaced_string = string.replace('ai', 'love',1)
+print(string)
+print(replaced_string)
+
+#output
+ai-luoyebusui-ai
+love-luoyebusui-ai
+```
+
+#### 4.20 split()
+
+`.split(sep,maxsplit)`以特定字符进行分割，默认空格分割。如果传入参数「sep」，则以参数进行分割。返回分割后的列表。maxsplit用于控制分割几次。
+
+```python
+string ='ai luoyebusui ai'
+split_string = string.split()
+print(string)
+print(split_string)
+
+#output
+ai luoyebusui ai
+['ai', 'luoyebusui','ai']
+
+
+string ='ai-luoyebusuiai-ai'
+split_string = string.split('-')
+print(string)
+print(split_string)
+
+#output
+ai-luoyebusuiai-ai
+['ai', 'luoyebusuiai', 'ai']
+
+
+string ='ai-luoyebusuiai-love'
+split_string = string.split('-',1)
+print(string)
+print(split_string)
+
+#output
+ai-luoyebusuiai-love
+['ai', 'luoyebusuiai-love']
+```
+
+::: warning 
+
+注意⚠️：使用split分割时，不管每个字符之间有几个空格都会正常分割出来。
+
+```python
+string ='ai         luoyebusuiai         love'
+split_string = string.split()
+print(split_string)
+
+#output
+['ai', 'luoyebusuiai', 'love']
+```
+
+当我们指定split的间隔时，split会严格按照我们指定的分割符号来分割。
+
+```python
+string ='ai         luoyebusuiai         love'
+split_string = string.split(' ')
+print(split_string)
+
+#output
+['ai', '', '', '', '', '', '', '', '', 'luoyebusuiai', '', '', '', '', '', '', '', '', 'love']
+```
+
+上面多输出的结果空字符串，就是证明。
+
+其实，在学习过程中，还是需要经常举一反三的。如果是其他的连续字符串会不会有这种情况？——答案是肯定的，也会有这样的情况。
+
+:::
+
+#### 5.21 rsplit()
+
+`.rsplit(sep,maxsplit)`从字符串右边进行分割，也可以传入参数「sep」，进行指定分割。返回分割后的列表。maxsplit指定分割次数。
+
+```python
+string ='ai-luoyebusuiai-love'
+split_string = string.split('-')
+print(string)
+print(split_string)
+
+#output
+ai-luoyebusuiai-love
+['ai', 'luoyebusuiai', 'love']
+
+
+string ='ai-luoyebusuiai-love'
+split_string = string.split('-',1)
+print(string)
+print(split_string)
+
+#output
+ai-luoyebusuiai-love
+['ai', 'luoyebusuiai-love']
 ```
