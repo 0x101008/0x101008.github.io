@@ -5,10 +5,11 @@
   <subtitle>个人博客</subtitle>
   <icon>https://bloggersht.com.cn/python</icon>
   <logo>https://bloggersht.com.cn/logo.jpg</logo>
-  <updated>2024-08-27T05:31:33.498Z</updated>
+  <updated>2024-09-08T06:38:39.896Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://bloggersht.com.cn/atom.xml"/>
   <link rel="alternate" href="https://bloggersht.com.cn/"/>
+  <category term="hexo"/>
   <category term="study"/>
   <category term="python"/>
   <category term="Web"/>
@@ -16,10 +17,157 @@
     <name>sht</name>
   </contributor>
   <entry>
+    <title type="text">Hexo主题安知鱼实现 charts「统计」 页面</title>
+    <id>https://bloggersht.com.cn/hexo/hexo-chart.html</id>
+    <link href="https://bloggersht.com.cn/hexo/hexo-chart.html"/>
+    <updated>2024-09-08T06:37:48.000Z</updated>
+    <summary type="html"><![CDATA[<h2>1. 效果预览</h2>
+<ul>
+<li><a href="https://blog.bloggersht.com.cn.cn/charts/" target="_blank" rel="noopener noreferrer">https://blog.bloggersht.com.cn/charts/</a></li>
+<li>代码修改参考：<a href="https://github.com/AndersonHJB/AndersonHJB.github.io/commit/a42feb4cde392db0f082945fe14badf7191a7336" target="_blank" rel="noopener noreferrer">https://github.com/AndersonHJB/AndersonHJB.github.io/commit/a42feb4cde392db0f082945fe14badf7191a7336</a></li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h2>1. 效果预览</h2>
+<ul>
+<li><a href="https://blog.bloggersht.com.cn.cn/charts/" target="_blank" rel="noopener noreferrer">https://blog.bloggersht.com.cn/charts/</a></li>
+<li>代码修改参考：<a href="https://github.com/AndersonHJB/AndersonHJB.github.io/commit/a42feb4cde392db0f082945fe14badf7191a7336" target="_blank" rel="noopener noreferrer">https://github.com/AndersonHJB/AndersonHJB.github.io/commit/a42feb4cde392db0f082945fe14badf7191a7336</a></li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h2>2. 代码实现</h2>
+
+]]></content>
+    <author>
+      <name>sht</name>
+    </author>
+    <category term="hexo"/>
+    <contributor>
+      <name>sht</name>
+    </contributor>
+    <published>2024-09-08T14:15:38.000Z</published>
+    <rights>Copyright by sht</rights>
+  </entry>
+  <entry>
+    <title type="text">Hexo 实现服务器部署</title>
+    <id>https://bloggersht.com.cn/hexo/hexo-server-depoly.html</id>
+    <link href="https://bloggersht.com.cn/hexo/hexo-server-depoly.html"/>
+    <updated>2024-09-08T06:37:48.000Z</updated>
+    <summary type="html"><![CDATA[<h2>1. 准备</h2>
+<p>在准备部署到服务器时，需要提前准备好：</p>
+<ol>
+<li>服务器；
+<ol>
+<li>备案好的服务器；</li>
+<li>安装好 git；</li>
+</ol>
+</li>
+<li>本地电脑：
+<ol>
+<li>安装 git；</li>
+<li>生成好 SSH，可以参考：[<a href="https://www.yuque.com/aiyuechuang/bfitms/gg9442?singleDoc#" target="_blank" rel="noopener noreferrer">Git 配置 SSH-Key (yuque.com)</a>]</li>
+</ol>
+</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[<h2>1. 准备</h2>
+<p>在准备部署到服务器时，需要提前准备好：</p>
+<ol>
+<li>服务器；
+<ol>
+<li>备案好的服务器；</li>
+<li>安装好 git；</li>
+</ol>
+</li>
+<li>本地电脑：
+<ol>
+<li>安装 git；</li>
+<li>生成好 SSH，可以参考：[<a href="https://www.yuque.com/aiyuechuang/bfitms/gg9442?singleDoc#" target="_blank" rel="noopener noreferrer">Git 配置 SSH-Key (yuque.com)</a>]</li>
+</ol>
+</li>
+</ol>
+<h2>2. 配置本地与服务器的 SSH 通信</h2>
+<ol>
+<li>正常情况下我们登录服务器需要如下命令：</li>
+</ol>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">ssh</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> root@47.92.238.44</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>不仅仅需要输入命令，紧接的还需要输入密码，可是我们经常部署总不能老是输入密码。</p>
+<ol start="2">
+<li>
+<p>读取本地的 SSH 公钥：<code>cat ~/.ssh/id_rsa.pub</code></p>
+</li>
+<li>
+<p>配置到服务器的 SSH：</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-dark:#7F848E;--shiki-light-font-style:italic;--shiki-dark-font-style:italic"># 进入用户主目录</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">cd</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ~</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-dark:#7F848E;--shiki-light-font-style:italic;--shiki-dark-font-style:italic"># 创建 .ssh 目录</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">mkdir</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> .ssh</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &amp;&amp; </span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">cd</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> .ssh</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-dark:#7F848E;--shiki-light-font-style:italic;--shiki-dark-font-style:italic"># 创建 authorized_keys 文件</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">touch</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> authorized_keys</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-dark:#7F848E;--shiki-light-font-style:italic;--shiki-dark-font-style:italic"># 在本地起一个终端，获取本地公钥</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">cat</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ~/.ssh/id_rsa.pub</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-dark:#7F848E;--shiki-light-font-style:italic;--shiki-dark-font-style:italic"># 登陆服务器，将获取的公钥写入服务器的 authorized_keys</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">echo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "这里修改为你的公钥内容"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &gt;&gt; </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">~/.ssh/authorized_keys</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-dark:#7F848E;--shiki-light-font-style:italic;--shiki-dark-font-style:italic"># 给相关文件添加执行权限</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">chmod</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 600</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ~/.ssh/authorized_keys</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">chmod</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 700</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ~/.ssh</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>这样就可以不需要密码直接登录了；</p>
+</li>
+</ol>
+<h2>3. 在服务器上设置 Git 仓库</h2>
+<ol>
+<li>
+<p><strong>创建一个裸仓库</strong>：</p>
+<p>在服务器上创建一个裸仓库（bare repository），这个仓库将用于接收你的推送。</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">mkdir</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -p</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ~/hexo-deploy.git</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">cd</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ~/hexo-deploy.git</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> init</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --bare</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>这里我们使用 <code>git init --bare</code> 初始化仓库，它与我们常使用的 <code>git init</code> 初始化的仓库不一样，你可以理解为它专门用来创建远程仓库，这种仓库只包括 git 版本控制相关的文件，不含项目源文件，所以我们需要借助一个 hooks，在有代码提交到该仓库的时候，将提交的代码迁移到其他目录，这里我们在 <code>hexo-deploy.git</code> 同级目录下创建了一个 <code>blog.bornforthis.cn</code> 文件夹，用于存放提交的源代码文件：</p>
+
+</li>
+</ol>
+<h2>4. 本地设置远程仓库</h2>
+<h3>4.1 常规部署</h3>
+<ol>
+<li>
+<p><strong>添加远程仓库</strong>： 在本地 Hexo 项目中，添加服务器上的 Git 仓库作为远程仓库：</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> remote</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> add</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> deploy</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> user@your-server-ip:~/hexo-deploy.git</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>请将 <code>user</code> 替换为你的服务器用户名，<code>your-server-ip</code> 替换为你的服务器 IP 地址。</p>
+</li>
+<li>
+<p><strong>推送代码</strong>： 当你准备好部署时，可以推送代码到服务器：</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> add</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> .</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> commit</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -m</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Deploy to server"</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">git</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> push</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> deploy</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> master</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ol>
+<h3>4.2 使用 hexo d 部署</h3>
+<p>只需要在配置文件中如下编写即可：</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">deploy:</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">  type</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> git</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  repo:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ssh://user@your-server-ip:/path/to/repository.git</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  branch:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> master</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
+    <author>
+      <name>sht</name>
+    </author>
+    <category term="hexo"/>
+    <contributor>
+      <name>sht</name>
+    </contributor>
+    <published>2024-08-11T09:54:55.000Z</published>
+    <rights>Copyright by sht</rights>
+  </entry>
+  <entry>
     <title type="text">1/0=?</title>
-    <id>https://bloggersht.com.cn/study/maths/amazing_maths/one%20divided%20by%20zero.html</id>
-    <link href="https://bloggersht.com.cn/study/maths/amazing_maths/one%20divided%20by%20zero.html"/>
-    <updated>2024-07-28T12:44:55.000Z</updated>
+    <id>https://bloggersht.com.cn/study/maths/one%20divided%20by%20zero.html</id>
+    <link href="https://bloggersht.com.cn/study/maths/one%20divided%20by%20zero.html"/>
+    <updated>2024-09-08T06:37:48.000Z</updated>
     <summary type="html"><![CDATA[<h2>1/0=？</h2>
 <ul>
 <li>
@@ -30,8 +178,9 @@
 <p>证明：
 假设10÷0=b
 那么b x 0=10
-bx(0+0)=10
-10+10=10
+bx(0+0)=10</p>
+<p>bx0+bx0=10</p>
+<p>10+10=10
 所以2=1
 以此类推，我们还可以证明出3=1，4=1......</p>
 </li>
@@ -58,8 +207,9 @@ bx(0+0)=10
 <p>证明：
 假设10÷0=b
 那么b x 0=10
-bx(0+0)=10
-10+10=10
+bx(0+0)=10</p>
+<p>bx0+bx0=10</p>
+<p>10+10=10
 所以2=1
 以此类推，我们还可以证明出3=1，4=1......</p>
 </li>
@@ -91,9 +241,9 @@ bx(0+0)=10
   </entry>
   <entry>
     <title type="text">有什么一句封神的作文开头？</title>
-    <id>https://bloggersht.com.cn/study/zh_article/sentence1.html</id>
-    <link href="https://bloggersht.com.cn/study/zh_article/sentence1.html"/>
-    <updated>2024-07-06T10:55:40.000Z</updated>
+    <id>https://bloggersht.com.cn/study/Chiense/sentence1.html</id>
+    <link href="https://bloggersht.com.cn/study/Chiense/sentence1.html"/>
+    <updated>2024-09-08T06:37:48.000Z</updated>
     <summary type="html"><![CDATA[<h2>有什么一句封神的作文开头？【作文纸条】</h2>
 <p>别怕！纸·古希腊掌管高分作文的神·条来捞你！</p>
 <p>这5个顶级句式背一句，顶十句，适用多种主题，考场直接无脑套用，拯救“提笔四顾心茫然”的你~</p>
@@ -147,9 +297,9 @@ bx(0+0)=10
   </entry>
   <entry>
     <title type="text">间谍过家家有哪些值得写进作文的神级台词？【作文纸条】</title>
-    <id>https://bloggersht.com.cn/study/zh_article/sentence2.html</id>
-    <link href="https://bloggersht.com.cn/study/zh_article/sentence2.html"/>
-    <updated>2024-07-06T10:55:40.000Z</updated>
+    <id>https://bloggersht.com.cn/study/Chiense/sentence2.html</id>
+    <link href="https://bloggersht.com.cn/study/Chiense/sentence2.html"/>
+    <updated>2024-09-08T06:37:48.000Z</updated>
     <summary type="html"><![CDATA[<h3>间谍过家家有哪些值得写进作文的神级台词？【作文纸条】</h3>
 <hr>
 <p>“哇酷哇酷"我们超萌的阿尼亚来了</p>
@@ -172,9 +322,9 @@ bx(0+0)=10
   </entry>
   <entry>
     <title type="text">人民日报-百搭金句</title>
-    <id>https://bloggersht.com.cn/study/zh_article/sentence.html</id>
-    <link href="https://bloggersht.com.cn/study/zh_article/sentence.html"/>
-    <updated>2024-07-06T10:55:40.000Z</updated>
+    <id>https://bloggersht.com.cn/study/Chiense/sentence.html</id>
+    <link href="https://bloggersht.com.cn/study/Chiense/sentence.html"/>
+    <updated>2024-09-08T06:37:48.000Z</updated>
     <summary type="html"><![CDATA[<h3>人民日报，10个百搭金句，写进作文赢麻了！</h3>
 <hr>
 <p>当代中学生至暗时刻：高级金句一箩筐，摘抄本记得满满当当，考试却写不了一点！</p>
@@ -781,7 +931,7 @@ bx(0+0)=10
     <title type="text">minecraft</title>
     <id>https://bloggersht.com.cn/blog/2024/minecraft.html</id>
     <link href="https://bloggersht.com.cn/blog/2024/minecraft.html"/>
-    <updated>2024-07-06T10:55:40.000Z</updated>
+    <updated>2024-09-08T06:37:48.000Z</updated>
     <summary type="html"><![CDATA[<hr>
 <p>浅浅借鉴<sub>剽窃</sub><a href="https://blog.huang223.top/2024/p=17/" target="_blank" rel="noopener noreferrer">一篇文章</a></p>
 <figure><figcaption>img</figcaption></figure>
@@ -885,7 +1035,7 @@ bx(0+0)=10
     <title type="text">一些没什么用的小工具</title>
     <id>https://bloggersht.com.cn/blog/2024/tool.html</id>
     <link href="https://bloggersht.com.cn/blog/2024/tool.html"/>
-    <updated>2024-06-17T13:02:04.000Z</updated>
+    <updated>2024-09-08T06:37:48.000Z</updated>
     <summary type="html"><![CDATA[<ol>
 <li>
 <p><a href="https://www.bloggersht.com.cn/tool/mouse/index.html" target="_blank" rel="noopener noreferrer">小鱼鼠标</a></p>
@@ -941,9 +1091,9 @@ bx(0+0)=10
   </entry>
   <entry>
     <title type="text">如何写好一封英语推荐信</title>
-    <id>https://bloggersht.com.cn/study/en_article/recommendation.html</id>
-    <link href="https://bloggersht.com.cn/study/en_article/recommendation.html"/>
-    <updated>2024-07-14T04:15:42.000Z</updated>
+    <id>https://bloggersht.com.cn/study/English/recommendation.html</id>
+    <link href="https://bloggersht.com.cn/study/English/recommendation.html"/>
+    <updated>2024-09-08T06:37:48.000Z</updated>
     <summary type="html"><![CDATA[<h3>1.注意点</h3>
 <hr>
 <p>写一封好的英语推荐信需要注意以下几点：</p>
