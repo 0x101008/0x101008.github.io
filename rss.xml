@@ -6,8 +6,8 @@
     <link>https://bloggersht.com.cn/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 08 Sep 2024 07:09:49 GMT</pubDate>
-    <lastBuildDate>Sun, 08 Sep 2024 07:09:49 GMT</lastBuildDate>
+    <pubDate>Sun, 08 Sep 2024 07:30:38 GMT</pubDate>
+    <lastBuildDate>Sun, 08 Sep 2024 07:30:38 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -15,10 +15,47 @@
       <url>https://bloggersht.com.cn/logo.jpg</url>
       <link>https://bloggersht.com.cn/</link>
     </image>
-    <category>hexo</category>
     <category>study</category>
+    <category>hexo</category>
     <category>python</category>
     <category>Web</category>
+    <item>
+      <title>有趣的物理</title>
+      <link>https://bloggersht.com.cn/study/physics/01-fun-phy.html</link>
+      <guid>https://bloggersht.com.cn/study/physics/01-fun-phy.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">有趣的物理</source>
+      <description>有趣的物理 最近发现了一些有趣的物理漫画 1.img 2. img 当然还有一些有趣的物理笑话： The Stanford Linear Accelerator Center was known as SLAC, until the big earthquake, when it became known as SPLAC. SPLAC? Stanfo...</description>
+      <category>study</category>
+      <pubDate>Sat, 06 Jul 2024 18:46:51 GMT</pubDate>
+      <content:encoded><![CDATA[<h3>有趣的物理</h3>
+<p>最近发现了一些有趣的物理漫画</p>
+<h4>1.</h4>
+<h4>2. </h4>
+<h4>当然还有一些有趣的物理笑话：</h4>
+<ol>
+<li>
+<p>The Stanford Linear Accelerator Center was known as SLAC, until the big earthquake, when it became known as SPLAC.
+SPLAC? Stanford Piecewise Linear Accelerator.</p>
+</li>
+<li>
+<p>The answer to the problem was 'log(1+x)'. A student copied the answer from the good student next to him, but didn't want to make it obvious that he was cheating, so he changed the answer slightly, to 'timber(1+x)'</p>
+</li>
+<li>
+<p>What is the difference between a physicist, an engineer, and a mathematician?</p>
+<p>If an engineer walks into a room and sees a fire in the middle and a bucket of water in the corner, he takes the bucket of water and pours it on the fire and puts it out.</p>
+<p>If a physicist walks into a room and sees a fire in the middle and a bucket of water in the corner, he takes the bucket of water and pours it eloquently around the fire and lets the fire put itself out.</p>
+<p>If a mathematician walks into a room and sees a fire in the middle and a bucket of water in the corner, he convinces himself there is a solution and leaves.</p>
+</li>
+<li>
+<p>An experimental physicist performs an experiment involving two cats, and an inclined tin roof.</p>
+<p>The two cats are very nearly identical; same sex, age, weight, breed, eye and hair color.</p>
+<p>The physicist places both cats on the roof at the same height and lets them both go at the same time. One of the cats fall off the roof first so obviously there is some difference between the two cats.</p>
+<p>What is the difference?</p>
+<p>One cat has a greater mew</p>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
     <item>
       <title>Hexo主题安知鱼实现 charts「统计」 页面</title>
       <link>https://bloggersht.com.cn/hexo/hexo-chart.html</link>

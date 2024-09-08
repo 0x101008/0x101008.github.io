@@ -5,17 +5,87 @@
   <subtitle>个人博客</subtitle>
   <icon>https://bloggersht.com.cn/python</icon>
   <logo>https://bloggersht.com.cn/logo.jpg</logo>
-  <updated>2024-09-08T07:09:49.197Z</updated>
+  <updated>2024-09-08T07:30:38.454Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://bloggersht.com.cn/atom.xml"/>
   <link rel="alternate" href="https://bloggersht.com.cn/"/>
-  <category term="hexo"/>
   <category term="study"/>
+  <category term="hexo"/>
   <category term="python"/>
   <category term="Web"/>
   <contributor>
     <name>sht</name>
   </contributor>
+  <entry>
+    <title type="text">有趣的物理</title>
+    <id>https://bloggersht.com.cn/study/physics/01-fun-phy.html</id>
+    <link href="https://bloggersht.com.cn/study/physics/01-fun-phy.html"/>
+    <updated>2024-09-08T07:29:49.000Z</updated>
+    <summary type="html"><![CDATA[<h3>有趣的物理</h3>
+<p>最近发现了一些有趣的物理漫画</p>
+<h4>1.</h4>
+<h4>2. </h4>
+<h4>当然还有一些有趣的物理笑话：</h4>
+<ol>
+<li>
+<p>The Stanford Linear Accelerator Center was known as SLAC, until the big earthquake, when it became known as SPLAC.
+SPLAC? Stanford Piecewise Linear Accelerator.</p>
+</li>
+<li>
+<p>The answer to the problem was 'log(1+x)'. A student copied the answer from the good student next to him, but didn't want to make it obvious that he was cheating, so he changed the answer slightly, to 'timber(1+x)'</p>
+</li>
+<li>
+<p>What is the difference between a physicist, an engineer, and a mathematician?</p>
+<p>If an engineer walks into a room and sees a fire in the middle and a bucket of water in the corner, he takes the bucket of water and pours it on the fire and puts it out.</p>
+<p>If a physicist walks into a room and sees a fire in the middle and a bucket of water in the corner, he takes the bucket of water and pours it eloquently around the fire and lets the fire put itself out.</p>
+<p>If a mathematician walks into a room and sees a fire in the middle and a bucket of water in the corner, he convinces himself there is a solution and leaves.</p>
+</li>
+<li>
+<p>An experimental physicist performs an experiment involving two cats, and an inclined tin roof.</p>
+<p>The two cats are very nearly identical; same sex, age, weight, breed, eye and hair color.</p>
+<p>The physicist places both cats on the roof at the same height and lets them both go at the same time. One of the cats fall off the roof first so obviously there is some difference between the two cats.</p>
+<p>What is the difference?</p>
+<p>One cat has a greater mew</p>
+</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[<h3>有趣的物理</h3>
+<p>最近发现了一些有趣的物理漫画</p>
+<h4>1.</h4>
+<h4>2. </h4>
+<h4>当然还有一些有趣的物理笑话：</h4>
+<ol>
+<li>
+<p>The Stanford Linear Accelerator Center was known as SLAC, until the big earthquake, when it became known as SPLAC.
+SPLAC? Stanford Piecewise Linear Accelerator.</p>
+</li>
+<li>
+<p>The answer to the problem was 'log(1+x)'. A student copied the answer from the good student next to him, but didn't want to make it obvious that he was cheating, so he changed the answer slightly, to 'timber(1+x)'</p>
+</li>
+<li>
+<p>What is the difference between a physicist, an engineer, and a mathematician?</p>
+<p>If an engineer walks into a room and sees a fire in the middle and a bucket of water in the corner, he takes the bucket of water and pours it on the fire and puts it out.</p>
+<p>If a physicist walks into a room and sees a fire in the middle and a bucket of water in the corner, he takes the bucket of water and pours it eloquently around the fire and lets the fire put itself out.</p>
+<p>If a mathematician walks into a room and sees a fire in the middle and a bucket of water in the corner, he convinces himself there is a solution and leaves.</p>
+</li>
+<li>
+<p>An experimental physicist performs an experiment involving two cats, and an inclined tin roof.</p>
+<p>The two cats are very nearly identical; same sex, age, weight, breed, eye and hair color.</p>
+<p>The physicist places both cats on the roof at the same height and lets them both go at the same time. One of the cats fall off the roof first so obviously there is some difference between the two cats.</p>
+<p>What is the difference?</p>
+<p>One cat has a greater mew</p>
+</li>
+</ol>
+]]></content>
+    <author>
+      <name>sht</name>
+    </author>
+    <category term="study"/>
+    <contributor>
+      <name>sht</name>
+    </contributor>
+    <published>2024-07-06T18:46:51.000Z</published>
+    <rights>Copyright by sht</rights>
+  </entry>
   <entry>
     <title type="text">Hexo主题安知鱼实现 charts「统计」 页面</title>
     <id>https://bloggersht.com.cn/hexo/hexo-chart.html</id>
