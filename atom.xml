@@ -5,7 +5,7 @@
   <subtitle>个人博客</subtitle>
   <icon>https://bloggersht.com.cn/python</icon>
   <logo>https://bloggersht.com.cn/logo.jpg</logo>
-  <updated>2024-09-08T07:30:38.454Z</updated>
+  <updated>2024-09-17T00:56:14.336Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://bloggersht.com.cn/atom.xml"/>
   <link rel="alternate" href="https://bloggersht.com.cn/"/>
@@ -20,7 +20,7 @@
     <title type="text">有趣的物理</title>
     <id>https://bloggersht.com.cn/study/physics/01-fun-phy.html</id>
     <link href="https://bloggersht.com.cn/study/physics/01-fun-phy.html"/>
-    <updated>2024-09-08T07:29:49.000Z</updated>
+    <updated>2024-09-17T00:55:16.000Z</updated>
     <summary type="html"><![CDATA[<h3>有趣的物理</h3>
 <p>最近发现了一些有趣的物理漫画</p>
 <h4>1.</h4>
@@ -83,7 +83,7 @@ SPLAC? Stanford Piecewise Linear Accelerator.</p>
     <contributor>
       <name>sht</name>
     </contributor>
-    <published>2024-07-06T18:46:51.000Z</published>
+    <published>2024-09-06T18:46:51.000Z</published>
     <rights>Copyright by sht</rights>
   </entry>
   <entry>

@@ -6,8 +6,8 @@
     <link>https://bloggersht.com.cn/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 08 Sep 2024 07:30:38 GMT</pubDate>
-    <lastBuildDate>Sun, 08 Sep 2024 07:30:38 GMT</lastBuildDate>
+    <pubDate>Tue, 17 Sep 2024 00:56:14 GMT</pubDate>
+    <lastBuildDate>Tue, 17 Sep 2024 00:56:14 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -26,7 +26,7 @@
       <source url="https://bloggersht.com.cn/rss.xml">有趣的物理</source>
       <description>有趣的物理 最近发现了一些有趣的物理漫画 1.img 2. img 当然还有一些有趣的物理笑话： The Stanford Linear Accelerator Center was known as SLAC, until the big earthquake, when it became known as SPLAC. SPLAC? Stanfo...</description>
       <category>study</category>
-      <pubDate>Sat, 06 Jul 2024 18:46:51 GMT</pubDate>
+      <pubDate>Fri, 06 Sep 2024 18:46:51 GMT</pubDate>
       <content:encoded><![CDATA[<h3>有趣的物理</h3>
 <p>最近发现了一些有趣的物理漫画</p>
 <h4>1.</h4>
