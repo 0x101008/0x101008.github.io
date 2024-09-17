@@ -1,7 +1,7 @@
 ---
 title: 有趣的物理
 icon: xuexi-
-date: 2024-07-06 18:46:51
+date: 2024-09-06 18:46:51
 author: sht
 isOriginal: true
 category: 
