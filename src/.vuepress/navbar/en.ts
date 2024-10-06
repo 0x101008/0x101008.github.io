@@ -1,7 +1,7 @@
 import { navbar } from 'vuepress-theme-hope';
 
 export const enNavbar = navbar([
-  '/',
+  {text: 'About me', icon:'', link: 'https://bloggersht.com.cn'},
   {text: 'Friendly Link', icon:'icon_xinyong_xianxing_jijin-', link: 'https://bloggersht.com.cn/blog/link.html'},
   {text:'anime',icon:'dongman', link: 'https://bloggersht.com.cn/anime/navigation.html'},
   {text:'album',icon:'xiangce', link: 'https://album.bloggersht.com.cn'},

@@ -793,3 +793,153 @@ print(split_string)
 ai-luoyebusuiai-love
 ['ai', 'luoyebusuiai-love']
 ```
+
+####  5.22 join()
+
+以特定字符使字符串间隔。
+
+```python
+string='luoyebusui'
+joined_string='-'.join(string)
+print(string)
+print(joined_string)
+
+#output
+luoyebusui
+l-u-o-y-e-b-u-s-u-i
+```
+
+##  6.字符串格式化
+
+```python
+string='Luoyebusui,welcome to Suzhou!'
+print(string)
+
+#output
+Luoyebusui,welcome to Suzhou!
+```
+
+- 所存在的问题：需要换一个人名或地区，就需要重新创建一个全新的字符串。
+
+- 我们更希望有类似的模板，让不同的人名、地名填写进去。而不是每个人都重头创建一个新字符串。
+
+当然这个时候有可能会想到使用字符串的加法，但字符串加法存在问题。
+```python
+name='luoyebusui'
+region='Suzhou'
+string1='Hi '
+string2=',welcome to '
+string3='.'
+result=string1+name+string2+region+string3
+print(result)
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+```
+
+#### 6.1 format（）
+
+1.单个花括号`{}`
+
+```python
+string='Hi {},welcome to Suzhou.'.format('luoyebusui')
+print(string)
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+
+string='Hi {},welcome to Suzhou.'
+print(string.format('luoyebusui'))
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+
+string='Hi {},welcome to Suzhou.'
+new_string=string.format('luoyebusui')
+print(new_string)
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+```
+
+2.一个花括号以上「按顺序填充」
+
+```python
+string='Hi {},welcome to {}.'.format('luoyebusui','Suzhou')
+print(string)
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+
+string='Hi {},welcome to {}.'
+print(string.format('luoyebusui','Suzhou'))
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+
+string='Hi {},welcome to {}.'
+new_string=string.format('luoyebusui','Suzhou')
+print(new_string)
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+```
+
+3.多个花括号指定位置
+
+```python
+string='Hi {1},welcome to {0}.'.format('Suzhou','luoyebusui')
+print(string)
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+
+string='Hi {1},welcome to {0}.'
+print(string.format('Suzhou','luoyebusui'))
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+
+string='Hi {1},welcome to {0}.'
+new_string=string.format('Suzhou','luoyebusui')
+print(new_string)
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+```
+
+4.参数指定
+
+```python
+string='Hi {name},welcome to {region}.'.format(region='Suzhou',name='luoyebusui')
+print(string)
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+
+string='Hi {name},welcome to {region}.'
+print(string.format(region='Suzhou',name='luoyebusui'))
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+
+string='Hi {name},welcome to {region}.'
+new_string=string.format(region='Suzhou',name='luoyebusui')
+print(new_string)
+
+#output
+Hi luoyebusui,welcome to Suzhou.
+```
+
+5.保留指定小数位
+
+```python
+string='Money is {:.3f}.'.format(190)
+print(string)
+
+#output
+Money is 190.000.
+```
+
+#### 6.2 f
+
