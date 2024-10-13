@@ -129,17 +129,51 @@ export default hopeTheme({
       dark:'auto',
     },
     
+    components: {
+      componentOptions: {
+  
+        share: {
+  
+            // services: ["email", "qq", "weibo", "qrcode"],
+          services: ["email", "qq", "qrcode"],
+        }
+      },
+      components: [
+        "VPBanner",
+        "VPCard",
+        "BiliBili",
+        "PDF",
+        "SiteInfo",
+        "StackBlitz",
+        "Share",
+        "VidStack",
+      ],
+      rootComponents: {
 
+      }
+    },
+    
+    markdownImage: {
+      mark: true,
+      size: true,
+      lazyload: true,
+      figure: true,
+    },
+    markdownHint: {
+      hint: true,
+      alert: true,
+    },
+    markdownTab: {
+      codeTabs: true,
+      tabs: true,
+    },
+    markdownMath: true,
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
       align: true,
       attrs: true,
-      codetabs: true,
       component: true,
       demo: true,
-      figure: true,
-      imgLazyload: true,
-      imgSize: true,
       tasklist: true,
       include: true,
       mark: true,
@@ -158,10 +192,7 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
       vPre: true,
-      revealJs: true,
-
 
 
       // 在启用之前安装 chart.js
