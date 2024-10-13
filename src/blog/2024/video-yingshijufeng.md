@@ -34,3 +34,10 @@ toc: true
 #### 看不了的可以看下面的👇
 
 https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.1/Supplement-Film-hurricane.mp4
+
+或者
+
+<VidStack
+  src="https://gitee.com/huangjiabaoaiyc/img/releases/download/1.1.3/补档-影视飓风.mp4"
+  poster="https://i.ytimg.com/vi/dKxDxSuZ8hc/maxresdefault.jpg"
+/>
