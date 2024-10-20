@@ -22,6 +22,9 @@ devDependencies:
   '@vuepress/plugin-markdown-tab':
     specifier: 2.0.0-rc.47
     version: 2.0.0-rc.47(markdown-it@14.1.0)(vuepress@2.0.0-rc.18)
+  '@vuepress/plugin-revealjs':
+    specifier: 2.0.0-rc.47
+    version: 2.0.0-rc.47(markdown-it@14.1.0)(vuepress@2.0.0-rc.18)
   '@vuepress/plugin-search':
     specifier: 2.0.0-rc.54
     version: 2.0.0-rc.54(vuepress@2.0.0-rc.18)
@@ -54,7 +57,7 @@ devDependencies:
     version: 0.19.3(vuepress@2.0.0-rc.18)
   vuepress-theme-hope:
     specifier: 2.0.0-rc.58
-    version: 2.0.0-rc.58(@vuepress/plugin-feed@2.0.0-rc.54)(@vuepress/plugin-search@2.0.0-rc.54)(@waline/client@3.3.2)(artplayer@5.1.7)(markdown-it@14.1.0)(mathjax-full@3.2.2)(sass-embedded@1.79.5)(vidstack@1.12.11)(vuepress@2.0.0-rc.18)
+    version: 2.0.0-rc.58(@vuepress/plugin-feed@2.0.0-rc.54)(@vuepress/plugin-revealjs@2.0.0-rc.47)(@vuepress/plugin-search@2.0.0-rc.54)(@waline/client@3.3.2)(artplayer@5.1.7)(markdown-it@14.1.0)(mathjax-full@3.2.2)(sass-embedded@1.79.5)(vidstack@1.12.11)(vuepress@2.0.0-rc.18)
 
 packages:
 
@@ -976,6 +979,10 @@ packages:
     dependencies:
       undici-types: 6.19.8
 
+  /@types/reveal.js@5.0.4:
+    resolution: {integrity: sha512-70Qua903NRU736r8Z94okthf6hXKm+brta/KdHFrK6GD16eTmGhPrDYGCUP7eNifEA2mvJGlNq1IR41ycIX0Yw==}
+    dev: true
+
   /@types/sax@1.2.7:
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
     dependencies:
@@ -1611,6 +1618,25 @@ packages:
       vuepress: 2.0.0-rc.18(@vuepress/bundler-vite@2.0.0-rc.18)(vue@3.5.12)
     transitivePeerDependencies:
       - '@vue/composition-api'
+      - typescript
+    dev: true
+
+  /@vuepress/plugin-revealjs@2.0.0-rc.47(markdown-it@14.1.0)(vuepress@2.0.0-rc.18):
+    resolution: {integrity: sha512-RZc0VQbAT3mFH5IRoxlYIfCjEbEGACbFzX6N05cmT/NzqCdvIhiwr4+YVz1grbxvvOCz9XKee2cBmgmpVsUAhA==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.15
+    dependencies:
+      '@mdit/plugin-uml': 0.13.1(markdown-it@14.1.0)
+      '@types/markdown-it': 14.1.2
+      '@types/reveal.js': 5.0.4
+      '@vuepress/helper': 2.0.0-rc.47(vuepress@2.0.0-rc.18)
+      '@vueuse/core': 11.1.0(vue@3.5.12)
+      reveal.js: 5.1.0
+      vue: 3.5.12
+      vuepress: 2.0.0-rc.18(@vuepress/bundler-vite@2.0.0-rc.18)(vue@3.5.12)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - markdown-it
       - typescript
     dev: true
 
@@ -3633,7 +3659,7 @@ packages:
       - typescript
     dev: true
 
-  /vuepress-theme-hope@2.0.0-rc.58(@vuepress/plugin-feed@2.0.0-rc.54)(@vuepress/plugin-search@2.0.0-rc.54)(@waline/client@3.3.2)(artplayer@5.1.7)(markdown-it@14.1.0)(mathjax-full@3.2.2)(sass-embedded@1.79.5)(vidstack@1.12.11)(vuepress@2.0.0-rc.18):
+  /vuepress-theme-hope@2.0.0-rc.58(@vuepress/plugin-feed@2.0.0-rc.54)(@vuepress/plugin-revealjs@2.0.0-rc.47)(@vuepress/plugin-search@2.0.0-rc.54)(@waline/client@3.3.2)(artplayer@5.1.7)(markdown-it@14.1.0)(mathjax-full@3.2.2)(sass-embedded@1.79.5)(vidstack@1.12.11)(vuepress@2.0.0-rc.18):
     resolution: {integrity: sha512-7C2UEhtNm1+ILoDLXyS+wNDz3Exjq6dwJnKbMIB1JnyZI+90kTmfZ/MtK1vCXBsA8Y4lbZE6dHxbhDLowwHypw==}
     engines: {node: '>=18.19.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -3693,6 +3719,7 @@ packages:
       '@vuepress/plugin-photo-swipe': 2.0.0-rc.52(vuepress@2.0.0-rc.18)
       '@vuepress/plugin-reading-time': 2.0.0-rc.52(vuepress@2.0.0-rc.18)
       '@vuepress/plugin-redirect': 2.0.0-rc.52(vuepress@2.0.0-rc.18)
+      '@vuepress/plugin-revealjs': 2.0.0-rc.47(markdown-it@14.1.0)(vuepress@2.0.0-rc.18)
       '@vuepress/plugin-rtl': 2.0.0-rc.52(vuepress@2.0.0-rc.18)
       '@vuepress/plugin-sass-palette': 2.0.0-rc.52(sass-embedded@1.79.5)(vuepress@2.0.0-rc.18)
       '@vuepress/plugin-search': 2.0.0-rc.54(vuepress@2.0.0-rc.18)

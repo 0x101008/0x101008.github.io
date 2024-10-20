@@ -1,6 +1,5 @@
 ---
 title: 学而不厌，诲人不倦
-layout: Slide
 article: false
 ---
 

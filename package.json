@@ -14,6 +14,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.18",
     "@vuepress/plugin-markdown-image": "2.0.0-rc.30",
     "@vuepress/plugin-markdown-tab": "2.0.0-rc.47",
+    "@vuepress/plugin-revealjs": "2.0.0-rc.47",
     "@vuepress/plugin-search": "2.0.0-rc.54",
     "@waline/client": "^3.3.2",
     "artplayer": "^5.1.7",
