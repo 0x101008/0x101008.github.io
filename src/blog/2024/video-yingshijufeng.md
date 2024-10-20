@@ -41,3 +41,9 @@ https://github.com/AndersonHJB/AndersonHJB.github.io/releases/download/V0.0.1/Su
   src="https://gitee.com/huangjiabaoaiyc/img/releases/download/1.1.3/补档-影视飓风.mp4"
   poster="https://i.ytimg.com/vi/dKxDxSuZ8hc/maxresdefault.jpg"
 />
+
+
+<VidStack
+  src="https://pomf2.lain.la/f/p63ro50.mp4"
+  poster="https://i.ytimg.com/vi/dKxDxSuZ8hc/maxresdefault.jpg"
+/>
