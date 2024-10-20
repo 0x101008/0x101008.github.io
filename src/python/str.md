@@ -1,7 +1,7 @@
 ---
 title: 字符串str
 icon: python
-date: 2024-06-17 20:50:30
+date: 2024-10-20 14:58:53
 author: sht
 isOriginal: true
 category: 
@@ -943,3 +943,185 @@ Money is 190.000.
 
 #### 6.2 f
 
+1.直接读取变量
+
+```python
+name='luoyebusui'
+region='suzhou'
+string=f'my name is {name} and i live in {region}'
+print(string)
+
+#output
+my name is luoyebusui and i live in suzhou
+```
+
+2.保留小数位
+
+```python
+money=100
+string=f'I have {money:.3f} dollars'
+print(string)
+
+#output
+I have 100.000 dollars
+```
+
+#### 6.3 %格式化
+
+- `%d`：整数
+- `%s`：字符串
+- `%f`：浮点数
+
+1.单个位置传入
+
+```python
+string='money is %d'
+new_s=string%13
+print(new_s)
+print(string%19)
+string='money is %d' % 190
+print(string)
+
+#output
+money is 13
+money is 19
+money is 190
+```
+
+2.多个位置传入
+
+```python
+string='money is %d %s'
+new_S=string % (13,'发大财')
+print(new_S)
+print(string % (888,'暴富'))
+string='money is %d %s' % (198,'超有钱')
+print(string)
+
+#output
+money is 13 发大财
+money is 888 暴富
+money is 198 超有钱
+```
+
+3,保留小数位
+
+```python
+string='money is %.3f'
+new= string % 19
+print(new)
+print(string % 10)
+string='money is %.3f' %100
+print(string)
+
+#output
+money is 19.000
+money is 10.000
+money is 100.000
+```
+
+#### 6.4 f、format和%的优缺点
+
+`format` 和`%`都像模版，提前做好模板后面有需要时可以直接用；而`f`则是像在银行中，柜员边问你边登记，不能提前做好模板。
+
+## 7.字符串不可变性
+
+字符串是不可变的，不可以改变字符串中的任何元素，如需改变字符串的元素，则需要新创建一个字符串。
+
+```python
+s='hello luoyebusui'
+s[0]='a'
+
+#output
+Traceback (most recent call last):
+  File "C:\Users\s\Desktop\编程\代码\python\str.py", line 2, in <module>
+    s[0]='a'
+TypeError: 'str' object does not support item assignment
+
+```
+
+除了使用replace还可以使用字符串拼接：
+
+```python
+s='hello luoyebusui'
+new='a'+s[1:]
+print(new)
+
+#output
+aello luoyebusui
+```
+
+## 8.字符串转义
+
+| 转义字符 |              含义               |         例子          |
+| :------: | :-----------------------------: | :-------------------: |
+|   `\\`   | 反斜杠符号为了在字符串中得到`\` |  `s='luoye\\busui'`   |
+|   `\b`   |       退格，类似于删除键        |  `s='luoyebb\usui'`   |
+|   `\n`   |              换行               |  `s='luoye\nbusui'`   |
+|   `\t`   |             制表符              | `s='luoye\tbu\tsui'`  |
+|   `r`    |     取消转义「R和r」都可以      | `s=r'luoye\tbu\tsui'` |
+
+```python
+s='luoye\\busui'
+print(s)
+
+s='luoye\bbusui'
+print(s)
+
+s='luoye\nbusui'
+print(s)
+
+s='luoye\tbu\tsui'
+print(s)
+
+#output
+luoye\busui
+luoybusui
+luoye
+busui
+luoye	bu	sui
+```
+
+## 9.字符串的连接
+
+```python
+s='luoye'
+s2='busui'
+print(s+s2)
+print(s,s2)
+
+#output
+luoyebusui
+luoye busui
+```
+
+```python
+s='*love*'
+print(s*10)
+
+#output
+*love**love**love**love**love**love**love**love**love**love*
+```
+
+```python
+s='*love*'
+print(s*10,end='*')
+
+#output
+*love**love**love**love**love**love**love**love**love**love**
+```
+
+## 10.读取用户输入
+
+#### 10.1 input（）基本使用
+
+使用`input()`获取用户输入
+
+```python
+userinput=input()
+print(userinput)
+
+#output
+hahaha
+hahaha
+```
