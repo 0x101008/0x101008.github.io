@@ -1125,3 +1125,262 @@ print(userinput)
 hahaha
 hahaha
 ```
+
+```python
+userinput=input('name>')
+print('name:',userinput)
+
+#output
+name>sht
+name: sht
+```
+
+#### 10.2 input()得到的类型皆为字符串「str」
+
+```python
+In [1]: type(input('>>>'))
+>>>sht
+Out[1]: str
+
+In [2]: type(input('>>>'))
+>>>123
+Out[2]: str
+
+In [3]: type(input('>>>'))
+>>>[1,2,3,4,5]
+Out[3]: str
+
+In [4]: type(input('>>>'))
+>>>(1,2,3)  
+Out[4]: str
+
+In [5]: type(input('>>>'))
+>>>{'a':1,'b':2}
+Out[5]: str
+
+In [6]: type(input('>>>'))
+>>>True
+Out[6]: str
+
+In [7]: type(input('>>>'))
+>>>12.3
+Out[7]: str
+
+In [8]: type(input('>>>'))
+>>>{1,2,3,4}
+Out[8]: str
+```
+
+#### 10.3 input()类型转换
+
+##### 方法一：强制转换
+
+```python
+In [9]: n=int(input())
+12
+
+In [10]: type(n)
+Out[10]: int
+
+In [11]: n
+Out[11]: 12
+
+In [12]: n=float((input()))
+12.9
+
+In [13]: type(n)
+Out[13]: float
+
+In [14]: n
+Out[14]: 12.9
+
+In [15]: n=list((input()))
+[1,2,3,4]
+
+In [16]: type(n)
+Out[16]: list
+
+In [17]: n
+Out[17]: ['[', '1', ',', '2', ',', '3', ',', '4', ']']
+
+In [18]: n=bool((input()))
+True
+
+In [19]: type(n)
+Out[19]: bool
+
+In [20]: n
+Out[20]: True
+
+In [21]: n=dict((input()))
+{1,2,3}
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-21-9fc51dc806de> in <module>
+----> 1 n=dict((input()))
+
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+
+In [22]: n=dict((input()))
+{'a':1,'b':2}
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-22-9fc51dc806de> in <module>
+----> 1 n=dict((input()))
+
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+
+In [23]: n=tuple((input()))
+(1,2,3)
+
+In [24]: type(n)
+Out[24]: tuple
+
+In [25]: n
+Out[25]: ('(', '1', ',', '2', ',', '3', ')')
+
+In [26]: n=set((input()))
+{1,2,3,'sht'}
+
+In [27]: type(n)
+Out[27]: set
+
+In [28]: n
+Out[28]: {"'", ',', '1', '2', '3', 'h', 's', 't', '{', '}'}
+
+```
+
+适合：数字「整数、浮点数」、字符串、布尔型
+
+不适合：列表、元组、字典、集合
+
+##### 方法二：使用eval()
+
+1.`eval()`的妙用
+
+
+
+```python
+In [32]: s=eval(input('>>>'))
+>>>12
+
+In [33]: type(s)
+Out[33]: int
+
+In [34]: s
+Out[34]: 12
+
+In [35]: s=eval(input('>>>'))
+>>>[1,2,3]  
+
+In [36]: type(s)
+Out[36]: list
+
+In [37]: s
+Out[37]: [1, 2, 3]
+
+In [38]: s=eval(input('>>>'))
+>>>(1,2,3)
+
+In [39]: type(s)
+Out[39]: tuple
+
+In [40]: s
+Out[40]: (1, 2, 3)
+
+In [41]: s=eval(input('>>>'))
+>>>{1,2,3}
+
+In [42]: type(s)
+Out[42]: set
+
+In [43]: s=eval(input('>>>'))
+>>>True 
+
+In [44]: type(s)
+Out[44]: bool
+
+In [45]: s
+Out[45]: True
+
+In [46]: s=eval(input('>>>'))
+>>>{'a':1,'b':2}
+
+In [47]: type(s)
+Out[47]: dict
+
+In [48]: s
+Out[48]: {'a': 1, 'b': 2}
+
+In [49]: s=eval(input('>>>'))
+>>>12.3
+
+In [50]: type(s)
+Out[50]: float
+
+In [51]: s
+Out[51]: 12.3
+
+In [52]: s=eval(input('>>>'))
+>>>sht
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-52-b68e0593d471> in <module>
+----> 1 s=eval(input('>>>'))
+
+<string> in <module>
+
+NameError: name 'sht' is not defined
+
+```
+
+稍微分析一下 eval()的功能“大概"实现原因：
+
+- input 获取用户输入，得到字符串类型。
+
+```python
+In[44]:s=input(':>>>')
+:>>>[1，2，3]
+
+In [45]:s
+0ut[45]:'[1，2，3]'
+```
+
+从上面的代码可以得知，eval大概率实现的是去掉字符串左右两边的引号。「这个地方 eval 或许不是
+按我说的实现，但是为了让你们更好理解原理，先这样来。」
+所以，为什么会导致上面的报错呢?
+
+1. 获取用户输入:``s=eval(input(':>>>'))``
+2. 其中 input 会得到``string`，而通过 `eval` 转换之后，就类似于` string`
+    变量。但是我们实际上我们在我们之前的代码中，并没有创建 string 这个变量。
+3. 故而报错，当然没有通过上面的分析也可以大概预料到问题，因为报错很直观:`NameError:name
+    string'is not defined `。
+4. 所以，解决方法很直白:
+    1. 一种是你在获取用户输入之前直接提前创建一个叫做 string 的变量;「显然，不是我们想要的」
+    2. 另一种则是输入的时，有意加上单引号或者双引号、三引号。
+
+```python
+In [56]: string='hello world'
+
+In [57]: s=eval(input('>>>'))
+>>>string
+
+In [58]: s
+Out[58]: 'hello world'
+
+In [59]: num=12
+
+In [60]: s=eval(input('>>>'))
+>>>num
+
+In [61]: type(s),s
+Out[61]: (int, 12)
+
+In [62]: s=eval(input('>>>'))
+>>>'string'
+
+In [63]: type(s),s
+Out[63]: (str, 'string')
+
+```
+
