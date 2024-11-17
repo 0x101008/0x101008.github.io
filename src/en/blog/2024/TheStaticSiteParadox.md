@@ -1,5 +1,5 @@
 ---
-title:「The Static Site Paradox」
+title: The Static Site Paradox
 icon: blog
 date: 2024-11-03 13:54:05
 author: sht
@@ -7,7 +7,7 @@ isOriginal: true
 category: 
     - Web
 tag:
-    - web
+    - Web
 sticky: false
 star: false
 article: true
@@ -54,5 +54,4 @@ Don’t you find it infuriating when lawyers and accountants fail to clarify how
 Whenever we fail to make simple things easy in software engineering, and webdev especially, we are failing society in the exact same way.
 
 This is not something that startups or big tech can solve for us, their economic incentives are just too misaligned, so I invite you all to help make the web more accessible, partially as a matter of taking pride in our craft, and partially because the web used to be more interesting when more of it was made by people different from us.
-
 

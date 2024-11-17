@@ -1,13 +1,13 @@
 ---
-title: 静态站点悖论「The Static Site Paradox」
-icon: blog
+title: 静态站点悖论The Static Site Paradox
+icon: #
 date: 2024-11-03 13:54:05
 author: sht
 isOriginal: true
 category: 
     - Web
 tag:
-    - web
+    - Web
 sticky: false
 star: false
 article: true
