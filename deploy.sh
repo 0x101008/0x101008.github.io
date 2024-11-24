@@ -33,7 +33,7 @@ echo "***** 成功上传 *****"
 # del /q /f ../zip/dist.zip
 echo "***** 进入服务器，触发远端程序 *****"
 # ssh root@121.89.218.11 "sh www/wwwroot/bash/autounzip.sh"
-ssh root@154.37.212.50 "sh www/wwwroot/bash/autounzip.sh"
+ssh root@154.37.212.50 "sh /www/wwwroot/bash/autounzip.sh"
 echo "***** 传输完毕*****"
 end_time_two=$(date +%s)
 run_time_total=$((end_time_two - start_time_one))
