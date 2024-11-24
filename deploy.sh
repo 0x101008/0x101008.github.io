@@ -24,8 +24,7 @@ set -e
 cd src/.vuepress/dist
 # git push -f vuepress@121.89.218.11:/var/www/html.git main
 echo "已成功进入目录打包...正在进行打包"
-# zip -r ../zip/dist.zip ./
-Compress-Archive -Path .\* -DestinationPath ..\zip\dist.zip
+7z -r ../zip/dist.zip ./
 echo "已经成功打包"
 echo "***** 上传中 *****"
 # scp -v -r ../zip/dist.zip root@121.89.218.11:/var/www/html
