@@ -21,7 +21,7 @@ echo "VuePress站点构建完成。"
 
 # echo "复制完成。"
 set -e
-cd docs/.vuepress/dist
+cd src/.vuepress/dist
 # git push -f vuepress@121.89.218.11:/var/www/html.git main
 echo "已成功进入目录打包...正在进行打包"
 zip -r ../zip/dist.zip ./
@@ -33,7 +33,7 @@ echo "***** 成功上传 *****"
 rm -rf ../zip/dist.zip
 echo "***** 进入服务器，触发远端程序 *****"
 # ssh root@121.89.218.11 "sh /bash/autounzip.sh"
-ssh -i ~/.ssh/id_rsa_aiyc root@154.37.212.50 "sh /www/wwwroot/bash/autounzip.sh"
+ssh root@154.37.212.50 "sh /bash/autounzip.sh"
 echo "***** 传输完毕*****"
 end_time_two=$(date +%s)
 run_time_total=$((end_time_two - start_time_one))
