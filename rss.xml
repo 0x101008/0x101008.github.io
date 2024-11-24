@@ -6,8 +6,8 @@
     <link>https://bloggersht.com.cn/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 17 Nov 2024 06:25:04 GMT</pubDate>
-    <lastBuildDate>Sun, 17 Nov 2024 06:25:04 GMT</lastBuildDate>
+    <pubDate>Sun, 24 Nov 2024 06:57:11 GMT</pubDate>
+    <lastBuildDate>Sun, 24 Nov 2024 06:57:11 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -433,7 +433,7 @@ bx(0+0)=10</p>
       <link>https://bloggersht.com.cn/intro.html</link>
       <guid>https://bloggersht.com.cn/intro.html</guid>
       <source url="https://bloggersht.com.cn/rss.xml">介绍页</source>
-      <description>介绍页 我，来自苏州，是一个热爱二次元的码农。 新博客，新起点 我只不过是一只普普通通的初中牲罢了 那么，让我来介绍一下这个博(垃)客(圾) 硬件配置： 托管于Github(国内可能要科学上网) --------只要Github一天不倒，我的博客就一天不倒！ 软件配置： 未来展望 用上自己的服务器或CDN（要不然速度慢的就是依托答辩），但是----服务...</description>
+      <description>介绍页 我，来自苏州，是一个热爱二次元的码农。 新博客，新起点 我只不过是一只普普通通的初中牲罢了 那么，让我来介绍一下这个博(垃)客(圾) 硬件配置： 托管于雨云(国内可能要科学上网) --------只要雨云一天不倒，我的博客就一天不倒！ 软件配置： 未来展望 用上自己的服务器或CDN（要不然速度慢的就是依托答辩），但是----服务器+CDN：网站...</description>
       <pubDate>Mon, 17 Jun 2024 02:57:24 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>我，来自苏州，是一个热爱二次元的码农。</p>
@@ -441,9 +441,9 @@ bx(0+0)=10</p>
 <p>我只不过是一只普普通通的初中牲罢了</p>
 <h2>那么，让我来介绍一下这个博(垃)客(圾)</h2>
 <p>硬件配置：</p>
-<p>托管于<a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>(国内可能要科学上网)</p>
+<p>托管于<a href="https://www.rainyun.com/MzE5MTUz_" target="_blank" rel="noopener noreferrer">雨云</a>(国内可能要科学上网)</p>
 ]]></content:encoded>
-      <enclosure url="https://i.imgur.com/H0jnk80_d.webp?maxwidth=760&amp;fidelity=grand" type="image/"/>
+      <enclosure url="https://bloggersht.com.cn/assets/images/cover1.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>ChatGPT的使用</title>

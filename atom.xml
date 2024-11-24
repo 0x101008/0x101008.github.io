@@ -5,7 +5,7 @@
   <subtitle>个人博客</subtitle>
   <icon>https://bloggersht.com.cn/python</icon>
   <logo>https://bloggersht.com.cn/logo.jpg</logo>
-  <updated>2024-11-17T06:25:04.631Z</updated>
+  <updated>2024-11-24T06:57:11.446Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://bloggersht.com.cn/atom.xml"/>
   <link rel="alternate" href="https://bloggersht.com.cn/"/>
@@ -186,7 +186,7 @@ a.执行以下命令，安装VNC</p>
     <title type="text">【补档】【影视飓风】 清晰度不如4年前！视频变糊是你的错觉吗？</title>
     <id>https://bloggersht.com.cn/blog/2024/video-yingshijufeng.html</id>
     <link href="https://bloggersht.com.cn/blog/2024/video-yingshijufeng.html"/>
-    <updated>2024-10-20T05:46:39.000Z</updated>
+    <updated>2024-11-24T06:51:41.000Z</updated>
     <author>
       <name>sht</name>
     </author>
@@ -627,15 +627,15 @@ bx(0+0)=10</p>
     <title type="text">介绍页</title>
     <id>https://bloggersht.com.cn/intro.html</id>
     <link href="https://bloggersht.com.cn/intro.html"/>
-    <updated>2024-06-17T02:57:24.000Z</updated>
+    <updated>2024-11-24T06:51:41.000Z</updated>
     <summary type="html"><![CDATA[
 <p>我，来自苏州，是一个热爱二次元的码农。</p>
 <h2>新博客，新起点</h2>
 <p>我只不过是一只普普通通的初中牲罢了</p>
 <h2>那么，让我来介绍一下这个博(垃)客(圾)</h2>
 <p>硬件配置：</p>
-<p>托管于<a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>(国内可能要科学上网)</p>
-<p>--------<strong>只要Github一天不倒，我的博客就一天不倒！</strong></p>
+<p>托管于<a href="https://www.rainyun.com/MzE5MTUz_" target="_blank" rel="noopener noreferrer">雨云</a>(国内可能要科学上网)</p>
+<p>--------<strong>只要雨云一天不倒，我的博客就一天不倒！</strong></p>
 <p>软件配置：</p>
 <table>
 <thead>
@@ -659,7 +659,7 @@ bx(0+0)=10</p>
 <p>我只不过是一只普普通通的初中牲罢了</p>
 <h2>那么，让我来介绍一下这个博(垃)客(圾)</h2>
 <p>硬件配置：</p>
-<p>托管于<a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>(国内可能要科学上网)</p>
+<p>托管于<a href="https://www.rainyun.com/MzE5MTUz_" target="_blank" rel="noopener noreferrer">雨云</a>(国内可能要科学上网)</p>
 ]]></content>
     <published>2024-06-17T02:57:24.000Z</published>
   </entry>
