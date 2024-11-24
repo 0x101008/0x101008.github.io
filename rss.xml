@@ -6,8 +6,8 @@
     <link>https://bloggersht.com.cn/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 24 Nov 2024 07:02:48 GMT</pubDate>
-    <lastBuildDate>Sun, 24 Nov 2024 07:02:48 GMT</lastBuildDate>
+    <pubDate>Sun, 24 Nov 2024 07:08:44 GMT</pubDate>
+    <lastBuildDate>Sun, 24 Nov 2024 07:08:44 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -446,6 +446,41 @@ bx(0+0)=10</p>
       <enclosure url="https://bloggersht.com.cn/assets/images/cover1.jpg" type="image/jpeg"/>
     </item>
     <item>
+      <title>ChatGPT的使用</title>
+      <link>https://bloggersht.com.cn/AI/ChatGPT.html</link>
+      <guid>https://bloggersht.com.cn/AI/ChatGPT.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">ChatGPT的使用</source>
+      <description>在现在ChatGPT或许已经成为人们日常工作学习必不可少的一部分了。而任然有很多人不知道它的具体使用方法及使用情景。于是就有了今天的这篇文章。 观前警告：本人对ChatGPT也不算十分精通,如有错误欢迎指出。（不喜勿喷） ChatGPT(burnhair-1美刀)</description>
+      <category>python</category>
+      <pubDate>Mon, 17 Jun 2024 20:50:30 GMT</pubDate>
+      <content:encoded><![CDATA[<p>在现在ChatGPT或许已经成为人们日常工作学习必不可少的一部分了。而任然有很多人不知道它的具体使用方法及使用情景。于是就有了今天的这篇文章。
+<strong><span style="color:red">观前警告：本人对ChatGPT也不算十分精通,如有错误欢迎指出。（不喜勿喷）</span></strong></p>
+<p><a href="https://nextchat.burn.hair/#/?settings=%7B%22key%22:%22sk-IOXa75TjIuEBymgBD2Ac4c6b19E14e66B19cDc3a17A5351f%22,%22url%22:%22https://burn.hair%22%7D" target="_blank" rel="noopener noreferrer">ChatGPT(burnhair-1美刀)</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Navigation</title>
+      <link>https://bloggersht.com.cn/anime/navigation.html</link>
+      <guid>https://bloggersht.com.cn/anime/navigation.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">Navigation</source>
+      <category>python</category>
+      <pubDate>Sun, 09 Jun 2024 11:02:06 GMT</pubDate>
+      <content:encoded><![CDATA[<p>| 名称 | 链接 |
+|</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>友情链接</title>
+      <link>https://bloggersht.com.cn/blog/link.html</link>
+      <guid>https://bloggersht.com.cn/blog/link.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">友情链接</source>
+      <description>huang223的小窝(间断性开放)</description>
+      <category>Web</category>
+      <pubDate>Mon, 08 Apr 2024 09:41:09 GMT</pubDate>
+      <content:encoded><![CDATA[<p><a href="https://xybcm.cn" target="_blank" rel="noopener noreferrer">huang223的小窝(间断性开放)</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>数字型type</title>
       <link>https://bloggersht.com.cn/python/number.html</link>
       <guid>https://bloggersht.com.cn/python/number.html</guid>
@@ -662,52 +697,6 @@ bx(0+0)=10</p>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>ChatGPT的使用</title>
-      <link>https://bloggersht.com.cn/AI/ChatGPT.html</link>
-      <guid>https://bloggersht.com.cn/AI/ChatGPT.html</guid>
-      <source url="https://bloggersht.com.cn/rss.xml">ChatGPT的使用</source>
-      <description>在现在ChatGPT或许已经成为人们日常工作学习必不可少的一部分了。而任然有很多人不知道它的具体使用方法及使用情景。于是就有了今天的这篇文章。 观前警告：本人对ChatGPT也不算十分精通,如有错误欢迎指出。（不喜勿喷） ChatGPT(burnhair-1美刀)</description>
-      <category>python</category>
-      <pubDate>Mon, 17 Jun 2024 20:50:30 GMT</pubDate>
-      <content:encoded><![CDATA[<p>在现在ChatGPT或许已经成为人们日常工作学习必不可少的一部分了。而任然有很多人不知道它的具体使用方法及使用情景。于是就有了今天的这篇文章。
-<strong><span style="color:red">观前警告：本人对ChatGPT也不算十分精通,如有错误欢迎指出。（不喜勿喷）</span></strong></p>
-<p><a href="https://nextchat.burn.hair/#/?settings=%7B%22key%22:%22sk-IOXa75TjIuEBymgBD2Ac4c6b19E14e66B19cDc3a17A5351f%22,%22url%22:%22https://burn.hair%22%7D" target="_blank" rel="noopener noreferrer">ChatGPT(burnhair-1美刀)</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Navigation</title>
-      <link>https://bloggersht.com.cn/anime/navigation.html</link>
-      <guid>https://bloggersht.com.cn/anime/navigation.html</guid>
-      <source url="https://bloggersht.com.cn/rss.xml">Navigation</source>
-      <category>python</category>
-      <pubDate>Sun, 09 Jun 2024 11:02:06 GMT</pubDate>
-      <content:encoded><![CDATA[<p>| 名称 | 链接 |
-|</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>友情链接</title>
-      <link>https://bloggersht.com.cn/blog/link.html</link>
-      <guid>https://bloggersht.com.cn/blog/link.html</guid>
-      <source url="https://bloggersht.com.cn/rss.xml">友情链接</source>
-      <description>huang223的小窝(间断性开放)</description>
-      <category>Web</category>
-      <pubDate>Mon, 08 Apr 2024 09:41:09 GMT</pubDate>
-      <content:encoded><![CDATA[<p><a href="https://xybcm.cn" target="_blank" rel="noopener noreferrer">huang223的小窝(间断性开放)</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>如何写好一封英语推荐信</title>
-      <link>https://bloggersht.com.cn/study/English/recommendation.html</link>
-      <guid>https://bloggersht.com.cn/study/English/recommendation.html</guid>
-      <source url="https://bloggersht.com.cn/rss.xml">如何写好一封英语推荐信</source>
-      <description>1.注意点 写一封好的英语推荐信需要注意以下几点： 1.1开头部分： 介绍自己是谁，你与被推荐人的关系是什么。 简要说明你为何有资格提供推荐信。 1.2具体描述： 描述被推荐人的优点、技能、工作表现等。提供具体的例子和经历来支持你的描述。 强调被推荐人的特质，如责任感、领导能力、团队合作能力等。 1.3举例和证据： 提供具体的案例、项目或事件，展示被推...</description>
-      <category>study</category>
-      <pubDate>Sat, 06 Jul 2024 18:46:51 GMT</pubDate>
-      <content:encoded><![CDATA[<h3>1.注意点</h3>
-]]></content:encoded>
-    </item>
-    <item>
       <title>网站搭建</title>
       <link>https://bloggersht.com.cn/blog/2024/creatwebsite.html</link>
       <guid>https://bloggersht.com.cn/blog/2024/creatwebsite.html</guid>
@@ -909,6 +898,17 @@ bx(0+0)=10</p>
 <p><a href="https://burn.hair/register?aff=A8QW" target="_blank" rel="noopener noreferrer">GPT3/4 API+CHAT</a></p>
 </li>
 </ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>如何写好一封英语推荐信</title>
+      <link>https://bloggersht.com.cn/study/English/recommendation.html</link>
+      <guid>https://bloggersht.com.cn/study/English/recommendation.html</guid>
+      <source url="https://bloggersht.com.cn/rss.xml">如何写好一封英语推荐信</source>
+      <description>1.注意点 写一封好的英语推荐信需要注意以下几点： 1.1开头部分： 介绍自己是谁，你与被推荐人的关系是什么。 简要说明你为何有资格提供推荐信。 1.2具体描述： 描述被推荐人的优点、技能、工作表现等。提供具体的例子和经历来支持你的描述。 强调被推荐人的特质，如责任感、领导能力、团队合作能力等。 1.3举例和证据： 提供具体的案例、项目或事件，展示被推...</description>
+      <category>study</category>
+      <pubDate>Sat, 06 Jul 2024 18:46:51 GMT</pubDate>
+      <content:encoded><![CDATA[<h3>1.注意点</h3>
 ]]></content:encoded>
     </item>
   </channel>
