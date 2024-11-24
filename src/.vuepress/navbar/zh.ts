@@ -3,7 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbar = navbar([
   "/",
   {text: '友情链接', icon: 'icon_xinyong_xianxing_jijin-', link: 'https://bloggersht.com.cn/blog/link.html'},
-  {text:'小说',icon:'tushu', link: 'https://f04baafa-d079-4f55-8861-7833dc26fb5f-00-1z9usbvpyj2lg.pike.replit.dev/#/'},
+  {text:'小说',icon:'tushu', link: 'https://read.bloggersht.com.cn/'},
   {text:'相册',icon:'xiangce', link: 'https://album.bloggersht.com.cn'},
   {text:'游戏',
     icon:'game',
