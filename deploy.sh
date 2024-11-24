@@ -28,12 +28,12 @@ echo "已成功进入目录打包...正在进行打包"
 echo "已经成功打包"
 echo "***** 上传中 *****"
 # scp -v -r ../zip/dist.zip root@121.89.218.11:/var/www/html
-scp -v -i ~/.ssh/id_rsa_aiyc -r ../zip/dist.zip root@154.37.212.50:/www/wwwroot/bloggersht.com.cn/
+scp -v -r ../zip/dist.zip root@154.37.212.50:/www/wwwroot/bloggersht.com.cn/
 echo "***** 成功上传 *****"
-# del /q /f ..\zip\dist.zip
+# del /q /f ../zip/dist.zip
 echo "***** 进入服务器，触发远端程序 *****"
-# ssh root@121.89.218.11 "sh /bash/autounzip.sh"
-ssh root@154.37.212.50 "sh /bash/autounzip.sh"
+# ssh root@121.89.218.11 "sh www/wwwroot/bash/autounzip.sh"
+ssh root@154.37.212.50 "sh www/wwwroot/bash/autounzip.sh"
 echo "***** 传输完毕*****"
 end_time_two=$(date +%s)
 run_time_total=$((end_time_two - start_time_one))
