@@ -5,7 +5,7 @@
   <subtitle>个人博客</subtitle>
   <icon>https://bloggersht.com.cn/python</icon>
   <logo>https://bloggersht.com.cn/logo.jpg</logo>
-  <updated>2024-11-24T07:16:53.627Z</updated>
+  <updated>2024-11-24T07:18:35.273Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://bloggersht.com.cn/atom.xml"/>
   <link rel="alternate" href="https://bloggersht.com.cn/"/>
@@ -627,14 +627,14 @@ bx(0+0)=10</p>
     <title type="text">介绍页</title>
     <id>https://bloggersht.com.cn/intro.html</id>
     <link href="https://bloggersht.com.cn/intro.html"/>
-    <updated>2024-11-24T06:51:41.000Z</updated>
+    <updated>2024-11-24T07:17:32.000Z</updated>
     <summary type="html"><![CDATA[
 <p>我，来自苏州，是一个热爱二次元的码农。</p>
 <h2>新博客，新起点</h2>
 <p>我只不过是一只普普通通的初中牲罢了</p>
 <h2>那么，让我来介绍一下这个博(垃)客(圾)</h2>
 <p>硬件配置：</p>
-<p>托管于<a href="https://www.rainyun.com/MzE5MTUz_" target="_blank" rel="noopener noreferrer">雨云</a>(国内可能要科学上网)</p>
+<p>托管于<a href="https://www.rainyun.com/MzE5MTUz_" target="_blank" rel="noopener noreferrer">雨云</a></p>
 <p>--------<strong>只要雨云一天不倒，我的博客就一天不倒！</strong></p>
 <p>软件配置：</p>
 <table>
@@ -659,7 +659,7 @@ bx(0+0)=10</p>
 <p>我只不过是一只普普通通的初中牲罢了</p>
 <h2>那么，让我来介绍一下这个博(垃)客(圾)</h2>
 <p>硬件配置：</p>
-<p>托管于<a href="https://www.rainyun.com/MzE5MTUz_" target="_blank" rel="noopener noreferrer">雨云</a>(国内可能要科学上网)</p>
+<p>托管于<a href="https://www.rainyun.com/MzE5MTUz_" target="_blank" rel="noopener noreferrer">雨云</a></p>
 ]]></content>
     <published>2024-06-17T02:57:24.000Z</published>
   </entry>
