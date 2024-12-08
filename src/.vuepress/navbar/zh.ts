@@ -10,7 +10,6 @@ export const zhNavbar = navbar([
     children:[
       {text:'我的世界1.8网页版',link:'https://bloggersht.com.cn/game.html'},
       {text:'网页小游戏50+',link:'https://bloggersht.com.cn/imc.html'},
-      {text:'网页测速',link:'https://bloggersht.com.cn/speedtest/index.html'},
       {text:'原神',link:'https://yuanshen-web-s1s3.vercel.app/'},
     ]
   },

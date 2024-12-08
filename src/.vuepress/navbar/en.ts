@@ -10,7 +10,6 @@ export const enNavbar = navbar([
     children:[
       {text:'Minecraft 1.8 Web Edition', link: 'https://bloggersht.com.cn/game.html'},
       {text:'Web mini-games 50+',link:'https://bloggersht.com.cn/imc.html'},
-      {text:'Web speed test',link:'https://bloggersht.com.cn/speedtest/index.html'},
       {text:'Genshin',link:'https://yuanshen-web-s1s3.vercel.app/'},
     ]
   },
