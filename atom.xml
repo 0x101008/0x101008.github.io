@@ -5,7 +5,7 @@
   <subtitle>个人博客</subtitle>
   <icon>https://bloggersht.com.cn/python</icon>
   <logo>https://bloggersht.com.cn/logo.jpg</logo>
-  <updated>2024-12-08T05:54:01.869Z</updated>
+  <updated>2024-12-15T05:09:38.634Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://bloggersht.com.cn/atom.xml"/>
   <link rel="alternate" href="https://bloggersht.com.cn/"/>
@@ -600,7 +600,7 @@ bx(0+0)=10</p>
     <title type="text">字符串str</title>
     <id>https://bloggersht.com.cn/python/str.html</id>
     <link href="https://bloggersht.com.cn/python/str.html"/>
-    <updated>2024-11-03T07:07:12.000Z</updated>
+    <updated>2024-12-15T05:08:21.000Z</updated>
     <summary type="html"><![CDATA[<hr>
 <h3>1.字符串的定义</h3>
 <p>字符串是由字母、数字、特殊字符来组成的序列。</p>
