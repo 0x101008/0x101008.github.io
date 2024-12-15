@@ -1384,3 +1384,24 @@ Out[63]: (str, 'string')
 
 ```
 
+3.`eval()`小技巧
+
+```python
+In [5]:  eval(input('>>:'))
+>>:1+2
+Out[5]: 3
+
+In [6]:  eval(input('>>:'))
+>>:5-2
+Out[6]: 3
+
+In [7]:  eval(input('>>:'))
+>>:2*6
+Out[7]: 12
+
+In [8]:  eval(input('>>:'))
+>>:3-1
+Out[8]: 2
+
+```
+
